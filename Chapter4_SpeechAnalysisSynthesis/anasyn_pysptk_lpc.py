@@ -53,7 +53,7 @@ source_excitation = pysptk.excite(pitch, HOP_LENGTH)
 
 # 線形予測分析による線形予測係数の抽出
 lpc = pysptk.lpc(frames, ORDER)
-lpc[:, 0] = np.log(lpc[:, 0])
+lpc[:, 0] = np.log(lpc[:, 0])  # loggain for AllPoleDF
 
 # 全極フィルタの作成
 synthesizer = Synthesizer(AllPoleDF(order=ORDER), HOP_LENGTH)
