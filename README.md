@@ -2,7 +2,7 @@
 音声情報処理n本ノックを目指して
 
 ## 第1章 準備運動（音声読み込み・書き込みなど）
-## 第2章 音声加工とサウンドエフェクト
+## [第2章 音声加工とサウンドエフェクト](https://github.com/tam17aki/speech_process_exercise/tree/master/Chapter2_SoundEffect)
 ## 第3章 音声の分析（スペクトル表示）
 ## 第4章 音声の分析合成（LPC、PARCOR、LSPなど）
 ## 第5章 機械学習
