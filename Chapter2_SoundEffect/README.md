@@ -1,7 +1,7 @@
-# 第２章 音声加工とサウンドエフェクト
-## Pythonのみ(without PySoX)
+## 第２章 音声加工とサウンドエフェクト
+### Pythonのみ(without PySoX)
 - coming soon...
-## PySoXを用いた音声加工（サウンドエフェクト処理）
+### PySoXを用いた音声加工（サウンドエフェクト処理）
 - wavからrawへ ([pysox_wav2raw.py](https://github.com/tam17aki/speech_process_exercise/blob/master/Chapter2_SoundEffect/pysox_wav2raw.py))
 - ステレオからモノラルへ ([pysox_stereo2mono.py](https://github.com/tam17aki/speech_process_exercise/blob/master/Chapter2_SoundEffect/pysox_stereo2mono.py))
 - 量子化ビット数を変更 ([pysox_change_bitdepth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/Chapter2_SoundEffect/pysox_change_bitdepth.py))
