@@ -1,4 +1,11 @@
-## 第1章 準備運動（音声読み込み・書き込みなど）
+# 第1章 準備運動（音声読み込み・書き込みなど）
+## はじめに
+```
+pip3 install numpy
+pip3 install matplotlib
+```
+
+## ファイル一覧
 - wavファイルの読み込みと書き込み ([wave_read_write.py](https://github.com/tam17aki/speech_process_exercise/blob/master/Chapter1_WarmUp/wave_read_write.py))
 - サンプリング周波数を変更したwavファイルの作成 ([wave_change_framerate.py](https://github.com/tam17aki/speech_process_exercise/blob/master/Chapter1_WarmUp/wave_change_framerate.py))
 - 量子化ビット数を変更したwavファイルの作成 ([wave_change_bitdepth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/Chapter1_WarmUp/wave_change_bitdepth.py))
