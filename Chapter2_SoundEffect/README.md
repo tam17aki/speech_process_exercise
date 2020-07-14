@@ -1,4 +1,11 @@
-## 第２章 音声加工とサウンドエフェクト
+# 第２章 音声加工とサウンドエフェクト
+## はじめに
+```
+brew install sox
+pip3 install sox
+```
+
+## ファイル一覧
 ### Pythonのみ(without PySoX)
 - coming soon...
 ### PySoXを用いた音声加工（サウンドエフェクト処理）
