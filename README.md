@@ -3,7 +3,7 @@
 
 ## [第1章 準備運動（音声読み込み・書き込みなど）](https://github.com/tam17aki/speech_process_exercise/tree/master/Chapter1_WarmUp)
 ## [第2章 音声加工とサウンドエフェクト](https://github.com/tam17aki/speech_process_exercise/tree/master/Chapter2_SoundEffect)
-## [第3章 音声の特徴量抽出（スペクトル表示）](https://github.com/tam17aki/speech_process_exercise/tree/master/Chapter3_SpeechAnalysis)
+## [第3章 音声の特徴量抽出](https://github.com/tam17aki/speech_process_exercise/tree/master/Chapter3_SpeechAnalysis)
 ## [第4章 音声の分析合成](https://github.com/tam17aki/speech_process_exercise/tree/master/Chapter4_SpeechAnalysisSynthesis)
 ## 第5章 機械学習
 ## 第6章 ニューラルネット
