@@ -5,6 +5,7 @@
 
 ## ファイル一覧
 - 最下位ビット置換法 (lsb_method.py)
+- 拡散スペクトル法 (spread_spectrum_method.py)
 - ケプストラム法 (cepstrum_method.py)
 - 位相コーディング法 (phase_coding_method.py)
 - エコーハイディング法 (echo_hiding_method.py)
