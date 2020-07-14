@@ -1,7 +1,7 @@
 # 第12章 音の電子透かしとステガノグラフィ
 
 ## はじめに
-音の電子透かしおよびステガノグラフ技術をPythonで実装するのが本章の目的。
+音の電子透かしおよびステガノグラフィ技術をPythonで実装するのが本章の目的。
 
 ## ファイル一覧
 - 最下位ビット置換法 ([lsb_method.py](https://github.com/tam17aki/speech_process_exercise/blob/master/Chapter12_AudioWatermark/lsb_method.py))
