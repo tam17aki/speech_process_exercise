@@ -37,7 +37,7 @@ IN_WAVE_FILE = "in.wav"       # 入力音声
 OUT_WAVE_FILE = "out.wav"     # 分析再合成した音声
 
 # 音声の読み込み
-sr, x = wavfile.read(IN_WAVE_FILE)
+fs, x = wavfile.read(IN_WAVE_FILE)
 x = x.astype(np.float64)
 
 # 音声の切り出しと窓掛け
@@ -46,7 +46,7 @@ frames = librosa.util.frame(x, frame_length=FRAME_LENGTH,
 frames *= pysptk.blackman(FRAME_LENGTH)  # 窓掛け（ブラックマン窓）
 
 # ピッチ抽出
-pitch = pysptk.swipe(x, fs=sr, hopsize=HOP_LENGTH,
+pitch = pysptk.swipe(x, fs=fs, hopsize=HOP_LENGTH,
                      min=MIN_F0, max=MAX_F0, otype="pitch")
 
 # 励振源信号(声帯音源)の生成
@@ -66,4 +66,4 @@ y = synthesizer.synthesis(source_excitation, mlsa_coef)
 
 # 音声の書き込み
 y = y.astype(np.int16)
-wavfile.write(OUT_WAVE_FILE, sr, y)
+wavfile.write(OUT_WAVE_FILE, fs, y)
