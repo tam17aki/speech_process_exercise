@@ -42,7 +42,7 @@ fs, x = wavfile.read(IN_WAVE_FILE)
 x = x.astype(np.float64)
 
 # 音声の分析 (基本周波数、スペクトル包絡、非周期性指標)
-f0, sp, _ = pyworld.wav2world(x, fs)
+_, sp, _ = pyworld.wav2world(x, fs)
 
 # メルケプストラム係数の抽出 from WORLDのスペクトル包絡
 mcep = pysptk.sp2mc(sp, order=ORDER, alpha=ALPHA)
