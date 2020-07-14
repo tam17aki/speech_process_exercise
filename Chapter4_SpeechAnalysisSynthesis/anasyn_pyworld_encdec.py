@@ -21,9 +21,9 @@
 # - PyWORLDによる音声の分析再合成
 # - ただしスペクトル包絡と非周期性指標をエンコード/デコード
 
-import pyworld as pw
 from scipy.io import wavfile
 import numpy as np
+import pyworld
 
 IN_WAVE_FILE = "in.wav"       # 入力音声
 OUT_WAVE_FILE = "out.wav"     # 分析再合成した音声
@@ -35,20 +35,20 @@ fs, x = wavfile.read(IN_WAVE_FILE)
 x = x.astype(np.float64)
 
 # 音声の分析 (基本周波数、スペクトル包絡、非周期性指標)
-f0, sp, ap = pw.wav2world(x, fs)
-fft_size = pw.get_cheaptrick_fft_size(fs)
+f0, sp, ap = pyworld.wav2world(x, fs)
+fft_size = pyworld.get_cheaptrick_fft_size(fs)
 
 # スペクトル包絡をエンコード / デコード
 # https://www.isca-speech.org/archive/Interspeech_2017/abstracts/0067.html
-code_sp = pw.code_spectral_envelope(sp, fs, SP_DIM)
-decode_sp = pw.decode_spectral_envelope(code_sp, fs, fft_size)
+code_sp = pyworld.code_spectral_envelope(sp, fs, SP_DIM)
+decode_sp = pyworld.decode_spectral_envelope(code_sp, fs, fft_size)
 
 # 非周期性指標をエンコード / デコード
-code_ap = pw.code_aperiodicity(ap, fs)
-decode_ap = pw.decode_aperiodicity(code_ap, fs, fft_size)
+code_ap = pyworld.code_aperiodicity(ap, fs)
+decode_ap = pyworld.decode_aperiodicity(code_ap, fs, fft_size)
 
 # 音声の再合成
-y = pw.synthesize(f0, decode_sp, decode_ap, fs)
+y = pyworld.synthesize(f0, decode_sp, decode_ap, fs)
 y = y.astype(np.int16)
 
 # 音声の書き込み
