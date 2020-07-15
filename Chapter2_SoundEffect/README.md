@@ -6,7 +6,7 @@ pip3 install sox
 ```
 
 ## ファイル一覧
-### SoXのみ(without Python)
+### SoXのみ (without Python)
 - comming soon...
 ### Pythonのみ (without PySoX)
 - coming soon...
