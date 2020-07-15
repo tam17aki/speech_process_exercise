@@ -237,4 +237,4 @@ for t0 in range(TIME_NUM):
     images.append(im)
 
 ANIME = animation.ArtistAnimation(fig, images, interval=40)
-ANIME.save("plot_square.mp4", writer="ffmpeg", dpi=300)
+ANIME.save("rectangle_anime.mp4", writer="ffmpeg", dpi=300)
