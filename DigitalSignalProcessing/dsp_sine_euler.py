@@ -38,23 +38,24 @@ OUT_WAVE_FILE = "out_wave_beat.wav"
 
 n_framerate = 16000             # 標本化周波数 (Hz)
 
-FREQ = 2                        # 正弦波の周波数 (Hz)
-DURATION = 1                    # 音の継続時間 (sec)
-AMPLITUDE = 2.0                 # 正弦波の振幅
+freq = 2                        # 正弦波の周波数 (Hz)
+duration = 1                    # 音の継続時間 (sec)
+amplitude = 2.0                 # 正弦波の振幅
 
 T = 1.0 / n_framerate           # 標本化周期 (sec)
 
-# 複素正弦波の実部と虚部を作成
-time = np.arange(0, DURATION, T)  # 継続時間に等しい標本点の作成
-cos_wave = AMPLITUDE * np.cos(2 * np.pi * FREQ * time)  # 実部
-sine_wave = AMPLITUDE * np.sin(2 * np.pi * FREQ * time)  # 虚部
+# 継続時間に等しい標本点の作成
+time = np.arange(0, duration, T)
 
-# 複素正弦波作成: 虚数単位は 1j で作られる！
-complex_sine_wave = cos_wave + 1j * sine_wave
+# 位相
+phase = 2.0 * np.pi * freq * time
+
+# 複素指数関数
+complex_exp = amplitude * np.exp(1j * phase)
 
 # 実部と虚部を取り出して 2次元プロット
 plt.figure(figsize=(6, 6))  # figureの縦横の大きさ
-plt.scatter(complex_sine_wave.real, complex_sine_wave.imag)
+plt.scatter(complex_exp.real, complex_exp.imag)
 plt.xlabel('Real part')
 plt.xlabel('Imaginary part')
 plt.show()
@@ -62,18 +63,18 @@ plt.show()
 # 実部と虚部を取り出して それぞれプロット
 plt.figure(figsize=(10, 7))
 plt.subplot(2, 1, 1)
-plt.plot(time, complex_sine_wave.real)
+plt.plot(time, complex_exp.real)
 plt.xlabel("Time (sec)")
 plt.ylabel("Real part")
 plt.subplot(2, 1, 2)
-plt.plot(time, complex_sine_wave.imag)
+plt.plot(time, complex_exp.imag)
 plt.xlabel("Time (sec)")
 plt.ylabel("Imaginary part")
 plt.show()
 
 # 絶対値と位相を計算して それぞれプロット
-amplitude = np.abs(complex_sine_wave)
-phase = np.angle(complex_sine_wave)
+amplitude = np.abs(complex_exp)
+phase = np.angle(complex_exp)
 plt.figure(figsize=(10, 7))
 plt.subplot(2, 1, 1)
 plt.plot(time, amplitude)
