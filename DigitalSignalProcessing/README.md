@@ -4,7 +4,7 @@
 - うなりが発生する波の作成 ([dsp_sine_beat.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_beat.py))
 - 複素正弦波の作成とプロット ([dsp_sine_euler.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_euler.py))
 - フーリエ級数展開（矩形波、ノコギリ波、三角波の合成）
-  - 矩形波 (dsp_rectwav.py)
+  - 矩形波 ([dsp_rectwav.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectwav.py))
   - ノコギリ波
   - 三角波
 - 離散時間フーリエ変換
