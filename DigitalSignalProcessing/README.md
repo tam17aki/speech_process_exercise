@@ -1,6 +1,6 @@
 # ディジタル信号処理の基礎
 ## 予定
-- 正弦波の作成 (dsp_sine.py) と プロット (dsp_sine_plot.py)
+- 正弦波の作成 ([dsp_sine.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine.py)) と プロット ([dsp_sine_plot.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_plot.py))
 - 複素正弦波の作成とプロット
 - フーリエ級数展開（矩形波、ノコギリ波、三角波の合成とプロット）
 - 離散時間フーリエ変換
