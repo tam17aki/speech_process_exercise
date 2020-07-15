@@ -6,7 +6,9 @@ pip3 install sox
 ```
 
 ## ファイル一覧
-### Pythonのみ(without PySoX)
+### SoXのみ(without Python)
+- comming soon...
+### Pythonのみ (without PySoX)
 - coming soon...
 ### PySoXを用いた音声加工（サウンドエフェクト処理）
 - wavからrawへ ([pysox_wav2raw.py](https://github.com/tam17aki/speech_process_exercise/blob/master/Chapter2_SoundEffect/pysox_wav2raw.py))
