@@ -5,9 +5,9 @@
   - 雑音を重畳した正弦波の作成
 - 複素正弦波の作成とプロット ([dsp_sine_euler.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_euler.py))
 - フーリエ級数展開（矩形波、ノコギリ波、三角波の合成）
-  - 矩形波の作成 ([dsp_rectangle.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectangle.py))
-  - ノコギリ波の作成 ([dsp_sawtooth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sawtooth.py))
-  - 三角波の作成 ([dsp_triangle.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_triangle.py))
+  - 矩形波の合成 ([dsp_rectangle.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectangle.py))
+  - ノコギリ波の合成 ([dsp_sawtooth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sawtooth.py))
+  - 三角波の合成 ([dsp_triangle.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_triangle.py))
 - 離散時間フーリエ変換
 - インパルス信号の作成とプロット
 - 窓関数の作成とプロット
