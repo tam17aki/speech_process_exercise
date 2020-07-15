@@ -5,9 +5,9 @@
   - 雑音を重畳した正弦波の作成 ([dsp_sine_addnoise.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_addnoise.py)) と プロット ([dsp_sine_addnoise_plot.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_addnoise_plot.py))
 - 複素正弦波の作成とプロット ([dsp_sine_euler.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_euler.py))
 - フーリエ級数展開（矩形波、ノコギリ波、三角波の合成）
-  - 矩形波の合成 ([dsp_rectangle.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectangle.py))
-  - ノコギリ波の合成 ([dsp_sawtooth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sawtooth.py))
-  - 三角波の合成 ([dsp_triangle.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_triangle.py))
+  - 矩形波の合成 ([dsp_rectangle_fourier.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectangle_fourier.py))
+  - ノコギリ波の合成 ([dsp_sawtooth_fourier.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sawtooth_fourier.py))
+  - 三角波の合成 ([dsp_triangle_fourier.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_triangle_fourier.py))
 - 離散時間フーリエ変換
 - インパルス信号の作成とプロット
 - 窓関数の作成とプロット
