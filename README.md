@@ -13,5 +13,5 @@
 ## 第10章 音声認識
 ## 第11章 声質変換
 ## 第12章 話者認識
-## [第13章 音の電子透かし](https://github.com/tam17aki/speech_process_exercise/tree/master/Chapter12_AudioWatermark)
-## 第14章 音源分離
+## [第13章 音の電子透かし](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioWatermark)
+## [第14章 音源分離](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioSourceSeparation)
