@@ -17,5 +17,5 @@
 - 自己相関、相互相関
 - ヒルベルト変換による包絡線の抽出と波形再合成 ([dsp_hilbert.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_hilbert.py))
 - おまけ（フーリエ級数近似のアニメーション）
-  -- 矩形波 ([dsp_rectangle_anime.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectangle_anime.py))
-  -- ノコギリ波 ([dsp_sawtooth_anime.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sawtooth_anime.py))
+  - 矩形波 ([dsp_rectangle_anime.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectangle_anime.py))
+  - ノコギリ波 ([dsp_sawtooth_anime.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sawtooth_anime.py))
