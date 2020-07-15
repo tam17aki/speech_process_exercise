@@ -36,7 +36,7 @@ from scipy.io import wavfile
 OUT_WAVE_FILE = "out_rectangle.wav"
 
 sample_rate = 16000             # 標本化周波数 (Hz)
-freq = 500                     # 矩形波の周波数 (Hz)
+freq = 500                      # 矩形波の周波数 (Hz)
 duration = 1                    # 矩形波の継続時間 (sec)
 amplitude = 8000                # 振幅 (ゲイン)
 order = 1000                    # 級数近似における倍音次数の上限値
