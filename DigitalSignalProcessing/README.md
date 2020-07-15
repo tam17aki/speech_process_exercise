@@ -4,9 +4,9 @@
 - うなりが発生する波の作成 ([dsp_sine_beat.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_beat.py))
 - 複素正弦波の作成とプロット ([dsp_sine_euler.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_euler.py))
 - フーリエ級数展開（矩形波、ノコギリ波、三角波の合成）
-  - 矩形波 ([dsp_rectwav.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectwav.py))
-  - ノコギリ波
-  - 三角波
+  - 矩形波 ([dsp_rectangle.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectangle.py))
+  - ノコギリ波 ([dsp_sawtooth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sawtooth.py))
+  - 三角波 ([dsp_triangle.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_triangle.py))
 - 離散時間フーリエ変換
 - インパルス信号の作成とプロット
 - 窓関数の作成とプロット
