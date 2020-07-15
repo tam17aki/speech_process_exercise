@@ -53,12 +53,6 @@ sine_wave2 = amplitude * np.sin(2 * np.pi * freq2 * time)
 # うなり発生
 sine_wave = sine_wave1 + sine_wave2
 
-# サンプル数
-n_frames = len(sine_wave)
-
-# bytesオブジェクトへの変換
-sound_frames = sine_wave.astype(np.int16).tobytes()
-
 # wavの書き込み (scipyモジュール)
 sine_wave = sine_wave.astype(np.int16)  # 16bit整数に変換
 wavfile.write(OUT_WAVE_FILE, n_framerate, sine_wave)
