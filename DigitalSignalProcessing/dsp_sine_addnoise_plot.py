@@ -33,8 +33,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-OUT_WAVE_FILE = "out_wave_noised.wav"
-
 n_framerate = 1000             # 標本化周波数 (Hz)
 
 freq = 4                       # 正弦波の周波数 (Hz)
