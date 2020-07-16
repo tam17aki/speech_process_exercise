@@ -16,3 +16,4 @@ pip3 install pysptk
 - MFCC
 - ケプストラム、メルケプストラム
 - LPC係数、PARCOR係数、LSP係数
+- 基本周波数の抽出
