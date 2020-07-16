@@ -66,6 +66,7 @@ for i in range(ITERATION):
         # 短時間フーリエ逆変換で音声を復元
         recovered = librosa.core.istft(recovered_spec, hop_length=HOP_LENGTH,
                                        win_length=FRAME_LENGTH)
+        
         # 復元音声から複素スペクトログラムを再計算
         complex_spec = librosa.core.stft(recovered, n_fft=FRAME_LENGTH,
                                          hop_length=HOP_LENGTH,
