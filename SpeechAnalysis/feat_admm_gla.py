@@ -39,7 +39,7 @@ import numpy as np
 from scipy.io import wavfile
 import librosa
 
-IN_WAVE_FILE = "target.wav"  # モノラル音声
+IN_WAVE_FILE = "in.wav"  # モノラル音声
 OUT_WAVE_FILE = "out_admm_gla.wav"  # 復元音声
 
 FRAME_LENGTH = 1024        # フレーム長 (FFTサイズ)
