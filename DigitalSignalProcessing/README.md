@@ -20,6 +20,7 @@
   - 移動平均フィルタによるノイズ除去 ([dsp_fir_denoise.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_fir_denoise.py))
   - ローパスフィルタ、ハイパスフィルタ
 - 自己相関、相互相関
+- Z変換、逆Z変換
 - ヒルベルト変換による包絡線の抽出と波形再合成 ([dsp_hilbert.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_hilbert.py))
 - おまけ（フーリエ級数近似のアニメーション作成）
   - 矩形波 ([dsp_rectangle_anime.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectangle_anime.py))、アニメーション ([rectangle_anime.mp4](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/rectangle_anime.mp4)) 
