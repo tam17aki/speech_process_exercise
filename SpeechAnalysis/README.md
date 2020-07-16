@@ -2,7 +2,8 @@
 
 ## はじめに
 ```
-pip install librosa
+pip3 install librosa
+pip3 install pysptk
 ```
 
 ## ファイル一覧
