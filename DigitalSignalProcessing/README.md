@@ -17,7 +17,7 @@
   - Blackman窓 ([dsp_window_blackman.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_window_blackman.py))
 - FIRフィルタ
   - 畳み込み (線形時不変システム的な意味で)
-  - 移動平均フィルタによるノイズ除去
+  - 移動平均フィルタによるノイズ除去 ([dsp_fir_denoise.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_fir_denoise.py))
   - ローパスフィルタ、ハイパスフィルタ
 - 自己相関、相互相関
 - ヒルベルト変換による包絡線の抽出と波形再合成 ([dsp_hilbert.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_hilbert.py))
