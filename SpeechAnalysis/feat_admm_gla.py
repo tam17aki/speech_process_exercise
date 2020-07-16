@@ -39,7 +39,7 @@ import numpy as np
 from scipy.io import wavfile
 import librosa
 
-IN_WAVE_FILE = "in.wav"  # モノラル音声
+IN_WAVE_FILE = "target.wav"  # モノラル音声
 OUT_WAVE_FILE = "out_admm_gla.wav"  # 復元音声
 
 FRAME_LENGTH = 1024        # フレーム長 (FFTサイズ)
@@ -51,11 +51,6 @@ MULTIPLIER = 0.01          # ADMM法の強さを制御; 0.0のときはGriffin-L
 
 # 音声のロード
 fs, data = wavfile.read(IN_WAVE_FILE)
-
-# フレーム分析で余りが出ないようにする
-n_frames = (len(data) - FRAME_LENGTH) / HOP_LENGTH
-n_frames = int(np.floor(n_frames)) if n_frames >= 0 else int(np.ceil(n_frames))
-data = data[:FRAME_LENGTH + n_frames * HOP_LENGTH]
 data = data.astype(np.float64)
 
 # 振幅スペクトル（位相復元なので手に入るのはこれのみ）
