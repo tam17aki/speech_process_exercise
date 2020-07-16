@@ -42,11 +42,6 @@ ITERATION = 200                 # Griffin-Lim法における位相推定の最�
 
 # 音声のロード
 fs, data = wavfile.read(IN_WAVE_FILE)
-
-# フレーム分析で余りが出ないようにする
-n_frames = (len(data) - FRAME_LENGTH) / HOP_LENGTH
-n_frames = int(np.floor(n_frames)) if n_frames >= 0 else int(np.ceil(n_frames))
-data = data[:FRAME_LENGTH + n_frames * HOP_LENGTH]
 data = data.astype(np.float64)
 
 # 振幅スペクトル（位相復元なので手に入るのはこれのみ）
@@ -66,7 +61,7 @@ for i in range(ITERATION):
         # 短時間フーリエ逆変換で音声を復元
         recovered = librosa.core.istft(recovered_spec, hop_length=HOP_LENGTH,
                                        win_length=FRAME_LENGTH)
-        
+
         # 復元音声から複素スペクトログラムを再計算
         complex_spec = librosa.core.stft(recovered, n_fft=FRAME_LENGTH,
                                          hop_length=HOP_LENGTH,
