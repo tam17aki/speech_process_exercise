@@ -7,7 +7,7 @@ pip3 install matplotlib
 ```
 
 ## ファイル一覧
-- wavファイルの読み込みと書き込み ([wave_read_write.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_read_write.py))
+- wavファイルの読み込みと書き込み ([wave_read_write.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_read_write.py)、[wav_read_write_scipy.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wav_read_write_scipy.py))
 - サンプリング周波数を変更したwavファイルの作成 ([wave_change_framerate.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_change_framerate.py))
 - 量子化ビット数を変更したwavファイルの作成 ([wave_change_bitdepth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_change_bitdepth.py))
 - 振幅の正規化 ([wave_normalize.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_normalize.py))
