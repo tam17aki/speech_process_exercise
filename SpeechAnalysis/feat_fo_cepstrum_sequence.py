@@ -77,7 +77,11 @@ max_quef = peak_index + min_cep_order
 
 # ケフレンシから変換して基本周波数の推定
 fo = fs / max_quef
+
+# 基本周波数の系列：無声音のフレームでは 0 Hzとするため 一様に0で初期化
 fo_seq = np.zeros(frames.shape[0])
+
+# 有声音のフレームに 推定された基本周波数を格納する
 fo_seq[voiced] = fo
 
 # 基本周波数の系列を表示
