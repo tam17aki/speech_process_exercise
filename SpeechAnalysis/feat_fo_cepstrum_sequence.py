@@ -89,7 +89,7 @@ fig = plt.figure(figsize=(12, 4))
 plt.plot(fo_seq)
 plt.xlabel("Frame number")
 plt.ylabel("Frequency (Hz)")
-plt.title("Fundamental frequency estimation via cepstrum method")
+plt.title("Estimation of fundamental frequency via cepstrum method")
 plt.tight_layout()
 plt.xlim(0, len(fo_seq) - 1)
 
