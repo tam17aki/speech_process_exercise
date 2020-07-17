@@ -44,7 +44,7 @@ FFT_LENGTH = FRAME_LENGTH
 MAX_Fo = 200                # 分析における基本周波数の最大値 (Hz)
 MIN_Fo = 60                 # 分析における基本周波数の最小値 (Hz)
 
-THRESHOLD_dB = -30          # 最大パワーからこの値を下回ると無声判定 in dB
+THRESHOLD_dB = -30          # 無声判定のしきい値 in dB
 
 # 音声のロード
 fs, data = wavfile.read(IN_WAVE_FILE)
