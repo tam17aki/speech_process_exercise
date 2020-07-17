@@ -26,12 +26,14 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Commentary:
-# - 音声セグメントからケプストラム法により基本周波数を推定する
+# - 音声からケプストラム法により基本周波数を推定する
+# - パワーが最大となる音声フレームを対象に推定
 
 import numpy as np
 import scipy
 from scipy.io import wavfile
 import librosa
+import matplotlib.pyplot as plt
 
 IN_WAVE_FILE = "in.wav"         # 分析対象の音声
 
@@ -76,3 +78,39 @@ max_quef = peak_index + min_cep_order
 # ケフレンシに変換して基本周波数の推定
 fo = fs / max_quef
 print(f"Fundamental Frequency = {fo:.2f} Hz")
+
+# 波形表示
+fig = plt.figure(figsize=(12, 8))
+time = np.arange(len(windowed_frame)) / fs
+axes = fig.add_subplot(3, 1, 1)
+axes.plot(time, pow_max_frame, label="original")
+axes.plot(time, windowed_frame, label="windowed")
+axes.set_xlabel("Time (sec)")
+axes.set_ylabel("Amplitude")
+axes.set_title("Waveform")
+axes.legend()
+axes.set_xlim(0, np.max(time))
+
+# 相対パワー表示
+axes = fig.add_subplot(3, 1, 2)
+freq = fs/2 * np.arange(len(log_amp_spec)) / len(log_amp_spec)
+logpower = 20 * np.log(np.abs(fft_spec) / np.max(np.abs(fft_spec)))
+axes.plot(freq, logpower, label="original")
+axes.set_xlabel("Frequency (Hz)")
+axes.set_ylabel("Log power (dB)")
+axes.set_title("Power")
+axes.set_xlim(0, np.max(freq))
+axes.set_ylim(np.min(logpower), 0)
+
+# ケプストラム表示 (対数振幅)
+axes = fig.add_subplot(3, 1, 3)
+quef = np.arange(FFT_LENGTH / 2) / fs
+log_cepstrum = np.log(np.abs(cepstrum))
+axes.plot(quef, log_cepstrum[:len(quef)])
+axes.set_xlabel("Quefrency (sec)")
+axes.set_ylabel("Log amplitude (dB)")
+axes.set_title("Cepstrum")
+axes.set_xlim(0, np.max(quef))
+
+plt.tight_layout()
+plt.show()
