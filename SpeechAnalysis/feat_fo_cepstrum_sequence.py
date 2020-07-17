@@ -58,7 +58,7 @@ min_cep_order = int(np.floor(fs / MAX_Fo))
 frames = librosa.util.frame(data, frame_length=FRAME_LENGTH,
                             hop_length=HOP_LENGTH).T
 
-# voicedのフレームを決定（イマイチ）
+# 各フレームで計算したパワーをもとに有声音のフレームを決定（泥臭い）
 powers = np.sum(frames * frames, axis=1)
 voiced = np.where(10 * np.log(powers / np.max(powers)) > THRESHOLD_dB)
 
