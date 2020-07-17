@@ -41,8 +41,8 @@ FRAME_LENGTH = 1024             # フレーム長 (FFTサイズ)
 HOP_LENGTH = 80                 # フレームのシフト長
 FFT_LENGTH = FRAME_LENGTH
 
-MAX_Fo = 400                    # 分析における基本周波数の最大値 (Hz)
-MIN_Fo = 80                     # 分析における基本周波数の最小値 (Hz)
+MAX_Fo = 200                    # 分析における基本周波数の最大値 (Hz)
+MIN_Fo = 60                     # 分析における基本周波数の最小値 (Hz)
 
 # 音声のロード
 fs, data = wavfile.read(IN_WAVE_FILE)
