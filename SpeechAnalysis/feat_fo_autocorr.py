@@ -107,7 +107,7 @@ axes.plot(time[relmax_index[peak_index]],
 axes.set_xlabel("Time (sec)")
 axes.set_ylabel("Autocorrelation function")
 axes.set_title("Fundamental frequency estimation "
-               f"via autocorrelation method\nfo = {fo:.2f} Hz")
+               f"via autocorrelation method: fo = {fo:.2f} Hz")
 plt.tight_layout()
 plt.legend()
 
