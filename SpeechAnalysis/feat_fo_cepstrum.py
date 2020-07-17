@@ -98,7 +98,7 @@ logpower = 20 * np.log(np.abs(fft_spec) / np.max(np.abs(fft_spec)))
 axes.plot(freq, logpower, label="original")
 axes.set_xlabel("Frequency (Hz)")
 axes.set_ylabel("Log power (dB)")
-axes.set_title("Power")
+axes.set_title("Log spectrum")
 axes.set_xlim(0, np.max(freq))
 axes.set_ylim(np.min(logpower), 0)
 
