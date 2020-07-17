@@ -44,7 +44,7 @@ FFT_LENGTH = FRAME_LENGTH
 MAX_Fo = 200                # 分析における基本周波数の最大値 (Hz)
 MIN_Fo = 60                 # 分析における基本周波数の最小値 (Hz)
 
-THRESHOLD_dB = 30           # 最大パワーからこの値を下回ると無声判定 in dB
+THRESHOLD_dB = -30          # 最大パワーからこの値を下回ると無声判定 in dB
 
 # 音声のロード
 fs, data = wavfile.read(IN_WAVE_FILE)
@@ -60,7 +60,7 @@ frames = librosa.util.frame(data, frame_length=FRAME_LENGTH,
 
 # voicedのフレームを決定（イマイチ）
 powers = np.sum(frames * frames, axis=1)
-voiced = np.where(10 * np.log(powers / np.max(powers)) > - THRESHOLD_dB)
+voiced = np.where(10 * np.log(powers / np.max(powers)) > THRESHOLD_dB)
 
 # 窓掛け
 window = scipy.signal.blackman(FFT_LENGTH)
