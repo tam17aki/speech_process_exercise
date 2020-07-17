@@ -70,7 +70,6 @@ autocorr = autocorr[int(len(autocorr) / 2):]
 
 # 自己相関関数の極大点を与えるインデックスを取得（ピーク位置）
 relmax_index = scipy.signal.argrelmax(autocorr)[0]
-relmin_index = scipy.signal.argrelmin(autocorr)[0]
 
 # 各ピーク位置における自己相関関数の値のうち、
 # 最大値を与えるときのピーク位置を計算
