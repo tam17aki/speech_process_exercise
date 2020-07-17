@@ -43,7 +43,7 @@ FFT_LENGTH = FRAME_LENGTH
 MAX_Fo = 200                # 分析における基本周波数の最大値 (Hz)
 MIN_Fo = 60                 # 分析における基本周波数の最小値 (Hz)
 
-LPC_ORDER = 24
+LPC_ORDER = 12
 
 # 音声のロード
 fs, data = wavfile.read(IN_WAVE_FILE)
