@@ -81,9 +81,12 @@ fo_seq = np.zeros(frames.shape[0])
 fo_seq[voiced] = fo
 
 # 基本周波数の系列を表示
-fig = plt.figure(figsize=(10, 6))
+fig = plt.figure(figsize=(12, 4))
 plt.plot(fo_seq)
 plt.xlabel("Frame number")
 plt.ylabel("Frequency (Hz)")
 plt.title("Fundamental frequency estimation via cepstrum method")
+plt.tight_layout()
+plt.xlim(0, len(fo_seq) - 1)
+
 plt.show()
