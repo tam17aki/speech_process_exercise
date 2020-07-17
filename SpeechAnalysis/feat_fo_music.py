@@ -39,7 +39,8 @@ IN_WAVE_FILE = "voice_a.wav"    # 「あ」の音声
 FRAME_LENGTH = 1024             # フレーム長 (FFTサイズ)
 HOP_LENGTH = 80                 # フレームのシフト長
 
-ORDER = 2                       #
+CUTOFF = 4000                   # 遮断周波数 (Hz)
+
 
 # 音声のロード
 fs, data = wavfile.read(IN_WAVE_FILE)
@@ -48,6 +49,12 @@ data = data.astype(np.float64)
 # フレーム化
 frames = librosa.util.frame(data, frame_length=FRAME_LENGTH,
                             hop_length=HOP_LENGTH).T
+
+# 周波数軸
+freq_axis = np.linspace(0, fs, frames.shape[0])
+
+# MUSIC法のノイズ成分を高域の周波数成分と見なす
+ORDER = np.min(np.where(freq_axis > CUTOFF))
 
 # 標本共分散行列の計算
 cov_frames = np.cov(frames, bias=True)
@@ -65,7 +72,6 @@ power_noise_eigvec = power_noise_eigvec ** 2
 
 # MUSIC法の疑似スペクトルを計算
 music_pseudo_spec = 1.0 / np.sum(power_noise_eigvec, axis=1)
-freq_axis = np.linspace(0, fs, len(music_pseudo_spec))
 
 # 基本周波数の推定
 # →ピーク位置の最小値を与える周波数
@@ -79,10 +85,11 @@ time = np.arange(n_samples) / fs
 plt.plot(time, data)
 plt.xlabel("Time (sec)")
 plt.ylabel("Amplitude")
-plt.title("Waveform")
+plt.title("Waveform (/a/)")
 plt.show()
 
 # MUSIC法による疑似スペクトルの計算結果
+fig = plt.figure(figsize=(10, 6))
 plt.plot(freq_axis, 20 * np.log10(music_pseudo_spec))
 plt.xlim(0, fs/2)
 plt.xlabel("Frequency (Hz)")
