@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """A python script to perform watermark embedding/detection
-   in the cepstrum domain via statistical mean manipulation."""
+   on the basis of singular value decomposition (SVD) method."""
 
 # Copyright (C) 2020 by Akira TAMAMORI
 
