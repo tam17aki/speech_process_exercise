@@ -179,7 +179,7 @@ def detect():
     W = (1.0 / alpha) * W
 
     # 残りの対角成分を正規化
-    W_diag = W.diagonal() / D
+    W_diag = W.diagonal() / np.abs(D)
     W = W - np.diag(W.diagonal())
     W = W + np.diag(W_diag)
 
