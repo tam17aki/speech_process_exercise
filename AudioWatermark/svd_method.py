@@ -187,9 +187,13 @@ def detect():
     wmark_recovered = np.zeros((effective_nbit, effective_nbit))
     for i in range(effective_nbit):
         for j in range(effective_nbit):
-            # ブロック行列の成分の和
-            thres = np.sum(W[i * NUM_REPS: (i + 1) * NUM_REPS,
-                             j * NUM_REPS: (j + 1) * NUM_REPS])
+
+            if REP_CODE:
+                # ブロック行列の成分の和
+                thres = np.sum(W[i * NUM_REPS: (i + 1) * NUM_REPS,
+                                 j * NUM_REPS: (j + 1) * NUM_REPS])
+            else:
+                thres = W[i][j]
 
             if thres > THRESHOLD:
                 wmark_recovered[i][j] = 1
