@@ -53,28 +53,22 @@ def embed():
     # STFT行列を作成
     stft_mat = librosa.core.stft(host_signal, n_fft=FFT_LENGTH,
                                  hop_length=HOP_LENGTH).T
-    n_frames = stft_mat.shape[0]
-
     # STFT行列を特異値分解
     U, D, V = np.linalg.svd(stft_mat, full_matrices=False)
 
-    # 埋め込みの総ビット数
-    embed_nbit = n_frames
-
+    off_diag_index = np.where(~np.eye(np.diag(D).shape[0], dtype=bool))
+    embed_nbit = len(off_diag_index[0])
     if REP_CODE:
         # 実効的な埋め込み可能ビット数
-        effective_nbit = np.floor(embed_nbit / NUM_REPS)
+        effective_nbit = int(np.floor(embed_nbit / NUM_REPS))
 
-        embed_nbit = effective_nbit * NUM_REPS
+        embed_nbit = int(effective_nbit * NUM_REPS)
     else:
         effective_nbit = embed_nbit
 
-    # 整数化
-    effective_nbit = int(effective_nbit)
-    embed_nbit = int(embed_nbit)
-
     # オリジナルの透かし信号を作成（0と1のビット列）
-    wmark_original = np.random.randint(2, size=(effective_nbit, effective_nbit))
+    wmark_original = np.random.randint(2, size=effective_nbit)
+
     # オリジナルの透かし信号を保存
     with open(WATERMARK_ORIGINAL_FILE, 'wb') as f:
         pickle.dump(wmark_original, f)
@@ -83,8 +77,7 @@ def embed():
 
     # 透かし信号を拡張する
     if REP_CODE:
-        wmark_extended = np.repeat(wmark_original, NUM_REPS, axis=0)
-        wmark_extended = np.repeat(wmark_extended, NUM_REPS, axis=1)
+        wmark_extended = np.repeat(wmark_original, NUM_REPS)
     else:
         wmark_extended = wmark_original
 
@@ -92,10 +85,12 @@ def embed():
     alpha = CONTROL_STRENGTH
 
     # 透かしの埋め込み
-    rows = wmark_extended.shape[0]
-    cols = wmark_extended.shape[1]
     wmed_D = np.diag(D)
-    wmed_D[:rows, :cols] = wmed_D[:rows, :cols] + alpha * wmark_extended
+    embed = alpha * wmark_extended
+    row_index = off_diag_index[0]
+    col_index = off_diag_index[1]
+    for i in range(embed_nbit):
+        wmed_D[row_index[i], col_index[i]] = embed[i]
 
     # 埋め込んだ行列を特異値分解
     Uw, Dw, Vw = np.linalg.svd(wmed_D, full_matrices=False)
@@ -146,27 +141,22 @@ def detect():
     wmed_stft_mat = librosa.core.stft(eval_signal, n_fft=FFT_LENGTH,
                                       hop_length=HOP_LENGTH).T
 
-    # フレーム数を確定
-    n_frames = D.shape[0]
-    embed_nbit = n_frames
-
-    if REP_CODE:
-        # 実質的な埋め込み可能ビット数
-        effective_nbit = np.floor(embed_nbit / NUM_REPS)
-
-        embed_nbit = effective_nbit * NUM_REPS
-    else:
-        effective_nbit = embed_nbit
-
-    effective_nbit = int(effective_nbit)
-    embed_nbit = int(embed_nbit)
-
     # オリジナルの透かし信号をロード
     with open(WATERMARK_ORIGINAL_FILE, 'rb') as f:
         wmark_original = pickle.load(f)
 
     # STFT行列を特異値分解
     U, Dw, V = np.linalg.svd(wmed_stft_mat, full_matrices=False)
+
+    off_diag_index = np.where(~np.eye(np.diag(D).shape[0], dtype=bool))
+    embed_nbit = len(off_diag_index[0])
+    if REP_CODE:
+        # 実効的な埋め込み可能ビット数
+        effective_nbit = int(np.floor(embed_nbit / NUM_REPS))
+
+        embed_nbit = int(effective_nbit * NUM_REPS)
+    else:
+        effective_nbit = embed_nbit
 
     # 透かし入りの行列を再構築
     wmed_D = Uw @ np.diag(Dw) @ Vw
@@ -183,28 +173,33 @@ def detect():
     W = W - np.diag(W.diagonal())
     W = W + np.diag(W_diag)
 
+    # ビットに変換
+    detected_bit = np.zeros((embed_nbit))
+    row_index = off_diag_index[0]
+    col_index = off_diag_index[1]
+    for i in range(embed_nbit):
+        if W[row_index[i], col_index[i]] > THRESHOLD:
+            detected_bit[i] = 1
+
     # 「透かし」を復元
-    wmark_recovered = np.zeros((effective_nbit, effective_nbit))
+    wmark_recovered = np.zeros((effective_nbit))
+    count = 0
     for i in range(effective_nbit):
-        for j in range(effective_nbit):
+        # ビットを集計（平均値）
+        ave = np.sum(detected_bit[count:count + NUM_REPS]) / NUM_REPS
 
-            if REP_CODE:
-                # ブロック行列の成分の和
-                thres = np.sum(W[i * NUM_REPS: (i + 1) * NUM_REPS,
-                                 j * NUM_REPS: (j + 1) * NUM_REPS])
-            else:
-                thres = W[i][j]
+        if ave >= 0.5:      # 過半数
+            wmark_recovered[i] = 1
+        else:
+            wmark_recovered[i] = 0
 
-            if thres > THRESHOLD:
-                wmark_recovered[i][j] = 1
-            else:
-                wmark_recovered[i][j] = 0
+        count = count + NUM_REPS
 
     # ビット誤り率を表示
     denom = np.int(np.sum(np.abs(wmark_recovered - wmark_original)))
     BER = np.sum(np.abs(wmark_recovered - wmark_original)) / \
-        (effective_nbit * effective_nbit) * 100
-    print(f'bit error rate = {BER:.2f}% ({denom} / {effective_nbit ** 2})')
+        (effective_nbit) * 100
+    print(f'bit error rate = {BER:.2f}% ({denom} / {effective_nbit})')
 
     # SNRを表示
     SNR = 10 * np.log10(
@@ -215,7 +210,7 @@ def detect():
 
     # bpsを表示
     print('BPS = {:.2f} bps'.format(
-        effective_nbit ** 2 / (len(host_signal) / sr)))
+        effective_nbit / (len(host_signal) / sr)))
 
 
 def main():
