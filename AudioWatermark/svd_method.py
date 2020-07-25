@@ -168,11 +168,6 @@ def detect():
     W = (wmed_D - np.diag(D))
     W = (1.0 / alpha) * W
 
-    # 残りの対角成分を正規化
-    W_diag = W.diagonal() / np.abs(D)
-    W = W - np.diag(W.diagonal())
-    W = W + np.diag(W_diag)
-
     # ビットに変換
     detected_bit = np.zeros((embed_nbit))
     row_index = off_diag_index[0]
