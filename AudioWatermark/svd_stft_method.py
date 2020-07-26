@@ -94,7 +94,6 @@ def embed():
     rows = wmark_extended.shape[0]
     cols = wmark_extended.shape[1]
     wmed_D = np.diag(D)
-    print(wmed_D.shape, wmark_extended.shape)
     embed = alpha * wmark_extended * D[:embed_nbit]
     wmed_D[:rows, :cols] = wmed_D[:rows, :cols] + embed
 
