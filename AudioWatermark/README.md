@@ -10,6 +10,6 @@
 - 位相コーディング法 ([phase_coding_method.py](https://github.com/tam17aki/speech_process_exercise/blob/master/AudioWatermark/phase_coding_method.py))
 - エコーハイディング法 ([echo_hiding_method.py](https://github.com/tam17aki/speech_process_exercise/blob/master/AudioWatermark/echo_hiding_method.py))
 - ウェーブレット法 ([wavelet_method.py](https://github.com/tam17aki/speech_process_exercise/blob/master/AudioWatermark/wavelet_method.py))
-- 特異値分解法（STFTに対する） ([svd_method.py](https://github.com/tam17aki/speech_process_exercise/blob/master/AudioWatermark/svd_method.py))
+- 特異値分解法（STFTに対する） ([svd_stft_method.py](https://github.com/tam17aki/speech_process_exercise/blob/master/AudioWatermark/svd_method_stft.py))
 - 特異値分解法（複素ケプストラムに対する） ([svd_cepstrum method.py](https://github.com/tam17aki/speech_process_exercise/blob/master/AudioWatermark/svd_cepstrum_method.py))
 - 特異値分解法（DCT係数に対する） ([svd_dct_method.py](https://github.com/tam17aki/speech_process_exercise/blob/master/AudioWatermark/svd_dct_method.py))
