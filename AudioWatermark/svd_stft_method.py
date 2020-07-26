@@ -24,7 +24,7 @@ import librosa
 import pickle
 
 
-HOST_SIGNAL_FILE = "bass_half.wav"  # 透かし埋め込み先のファイル
+HOST_SIGNAL_FILE = "host.wav"  # 透かし埋め込み先のファイル
 WATERMARK_SIGNAL_FILE = "wmed_signal.wav"           # 透かしを埋め込んだファイル
 WATERMARK_U_FILE = 'svd_left.dat'                 # 特異値分解の左側の行列
 WATERMARK_D_FILE = 'svd_center.dat'                 # 特異値分解の真ん中の行列
@@ -32,9 +32,9 @@ WATERMARK_V_FILE = 'svd_right.dat'                # 特異値分解の右側の�
 WATERMARK_ORIGINAL_FILE = 'watermark_ori.dat'       # オリジナルの透かし信号
 
 REP_CODE = True                 # 繰り返し埋め込みを使う
-FRAME_LENGTH = 4096             # フレーム長
+FRAME_LENGTH = 2048             # フレーム長
 FFT_LENGTH = FRAME_LENGTH
-HOP_LENGTH = 240
+HOP_LENGTH = 80
 
 CONTROL_STRENGTH = 0.01         # 埋め込み強度
 NUM_REPS = 3                    # 埋め込みの繰り返し数
@@ -146,9 +146,8 @@ def detect():
     wmed_stft_mat = librosa.core.stft(eval_signal, n_fft=FFT_LENGTH,
                                       hop_length=HOP_LENGTH).T
 
-    # フレーム数を確定
-    n_frames = D.shape[0]
-    embed_nbit = n_frames
+    # 埋め込みの総ビット数
+    embed_nbit = np.min([wmed_stft_mat.shape[0], wmed_stft_mat.shape[1]])
 
     if REP_CODE:
         # 実質的な埋め込み可能ビット数
