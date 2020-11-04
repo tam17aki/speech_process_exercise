@@ -57,8 +57,5 @@ transformer.echo(n_echos=n_echos, delays=delays, decays=decays)
 # エコーをかけた結果をファイルに保存
 transformer.build(IN_WAVE_FILE, OUT_WAVE_FILE)
 
-# 音声ファイルを開く (dataが音声データ)
-sr, data = wavfile.read(IN_WAVE_FILE)
-
 # エコーをかけた結果をarrayとして取得
 echos = transformer.build_array(IN_WAVE_FILE)
