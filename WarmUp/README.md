@@ -4,6 +4,7 @@
 pip3 install numpy
 pip3 install scipy
 pip3 install matplotlib
+pip3 install sounddevice
 ```
 
 ## ファイル一覧
@@ -12,4 +13,6 @@ pip3 install matplotlib
 - 量子化ビット数を変更したwavファイルの作成 ([wave_change_bitdepth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_change_bitdepth.py))
 - 振幅の正規化 ([wave_normalize.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_normalize.py))
 - ステレオからモノラルに変更 ([wave_stereo_to_mono.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_stereo_to_mono.py))
-- matplotlibを用いた波形プロット ([plt_waveform.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform.py))
+- matplotlibを用いた波形プロット ([plt_waveform.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform.py)、[plt_waveform2.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform2.py))
+- 白色雑音の作成と書き込み（[wave_write_whitenoise.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_write_whitenoise.py)）
+- wavファイルの再生（[sounddevice_play_wav.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/sounddevice_play_wav.py)）
