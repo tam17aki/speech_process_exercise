@@ -11,8 +11,11 @@ pip3 install pysptk
 - 短時間フーリエ変換（stft）
 - 逆短時間フーリエ変換（istft; オーバーラップ加算）
 - 音声の短時間フーリエ変換と逆短時間フーリエ変換（scipy利用）
+  - stftした直後にistftして音声を復元する [feat_stft_istft.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_stft_istft.py)
 - スペクトログラム
-- 位相復元（Griffin-Lim）
+- 位相復元（Griffin-Limアルゴリズム）
+  - オリジナル [feat_gla.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_gla.py)
+  - Masuyama氏らが提案したADMMに基づく高速版アルゴリズム [feat_admm_gla.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_admm_gla.py)
 - メルスペクトログラム
 - MFCC
 - ケプストラム、メルケプストラム
