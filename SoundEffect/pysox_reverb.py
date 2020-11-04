@@ -30,9 +30,10 @@
 # - リバーブをかける
 
 import sox
+from scipy.io import wavfile
 
-IN_WAVE_FILE = "in.wav"       # 入力音声
-OUT_WAVE_FILE = "reverb.wav"    # リバーブ済み音声
+IN_WAVE_FILE = "in.wav"  # 入力音声
+OUT_WAVE_FILE = "reverb.wav"  # リバーブ済み音声
 
 # create trasnformer (単一ファイルに対する処理)
 transformer = sox.Transformer()
@@ -62,11 +63,16 @@ WET_ONLY = False
 # ##############################################################
 
 # リバーブをかける
-transformer.reverb(reverberance=REVERBERANCE,
-                   high_freq_damping=HIGH_FREQ_DAMPING,
-                   room_scale=ROOM_SCALE,
-                   stereo_depth=STEREO_DEPTH,
-                   pre_delay=PRE_DELAY,
-                   wet_gain=WET_GAIN,
-                   wet_only=WET_ONLY)
+transformer.reverb(
+    reverberance=REVERBERANCE,
+    high_freq_damping=HIGH_FREQ_DAMPING,
+    room_scale=ROOM_SCALE,
+    stereo_depth=STEREO_DEPTH,
+    pre_delay=PRE_DELAY,
+    wet_gain=WET_GAIN,
+    wet_only=WET_ONLY,
+)
 transformer.build(IN_WAVE_FILE, OUT_WAVE_FILE)
+
+# リバーブをかけた結果をarrayとして取得
+reverb = transformer.build_array(IN_WAVE_FILE)
