@@ -20,7 +20,11 @@ pip3 install pysptk
   - librosa利用 [feat_melspec.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.py)
 - MFCC
 - ケプストラム、メルケプストラム
-- LPC係数、PARCOR係数、LSP係数
+- LPC係数
+  - PySPTK利用
+  - librosa利用
+- PARCOR係数
+- LSP係数
 - 基本周波数の抽出
   - YINアルゴリズム [feat_fo_yin.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_yin.py)
   - probabilistic YINアルゴリズム [feat_fo_pyin.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_pyin.py)
