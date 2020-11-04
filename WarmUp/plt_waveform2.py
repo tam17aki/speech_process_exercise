@@ -34,7 +34,7 @@ import wave
 import matplotlib.pyplot as plt
 import numpy as np
 
-IN_WAVE_FILE = "mono.wav"  # モノラル音声（前提）
+IN_WAVE_FILE = "in.wav"  # モノラル音声（前提）
 
 # wavの読み込み
 with wave.open(IN_WAVE_FILE, "r") as sound:
