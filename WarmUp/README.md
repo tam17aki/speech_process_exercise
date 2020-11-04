@@ -10,7 +10,7 @@ pip3 install sounddevice
 ## ファイル一覧
 - wavファイルの読み込みと書き込み
   - waveモジュール [wave_read_write.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_read_write.py)
-  - scipyのwavfileモジュール [wav_read_write_scipy.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wav_read_write_scipy.py)
+  - scipyのwavfileモジュール [wave_read_write_scipy.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_read_write_scipy.py)
 - サンプリング周波数を変更したwavファイルの作成 
   - [wave_change_framerate.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_change_framerate.py)
 - 量子化ビット数を変更したwavファイルの作成
