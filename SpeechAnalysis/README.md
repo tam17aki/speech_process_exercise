@@ -21,3 +21,5 @@ pip3 install pysptk
 - ケプストラム、メルケプストラム
 - LPC係数、PARCOR係数、LSP係数
 - 基本周波数の抽出
+  - YINアルゴリズム [feat_fo_yin.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_yin.py)
+  - probabilistic YINアルゴリズム [feat_fo_pyin.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_pyin.py)
