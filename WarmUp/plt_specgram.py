@@ -42,6 +42,9 @@ N_OVERLAP = FRAME_LENGTH - HOP_LENGTH  # オーバーラップ幅
 # 音声データ読み込み (fsがサンプリング周波数、dataは音声データ)
 fs, data = wavfile.read(IN_WAVE_FILE)
 
+# プロット枠を確保
+plt.figure(figsize=(10, 4))
+
 # スペクトログラムのプロット
 plt.specgram(data, NFFT=FFT_LENGTH, noverlap=N_OVERLAP, Fs=fs, cmap="jet")
 
