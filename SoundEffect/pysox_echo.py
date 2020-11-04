@@ -29,16 +29,18 @@
 # - PySoXを用いた音声情報処理シリーズ
 # - エコーをかける
 
+
 import sox
+from scipy.io import wavfile
 
-IN_WAVE_FILE = "in.wav"       # 入力音声
-OUT_WAVE_FILE = "echo.wav"    # エコー済み音声
+IN_WAVE_FILE = "in.wav"  # 入力音声
+OUT_WAVE_FILE = "echo.wav"  # エコー済み音声
 
-# create trasnformer (単一ファイルに対する処理)
+# トランスフォーマーをつくる（単一音声に対する処理）
 transformer = sox.Transformer()
 
 # エコー の パラメタ
-n_echos = 2     # エコー回数
+n_echos = 2  # エコー回数
 delays = [375]  # 遅延時間 (ms)
 decays = [0.5]  # 減衰率
 
@@ -46,9 +48,17 @@ decays = [0.5]  # 減衰率
 # → エコー回数に等しい長さの「リスト」を 遅延時間と減衰率それぞれで用意する
 # → n_echos が 2 なら遅延時間は [375, 750], 減衰率は [0.5, 0.25]
 for i in range(1, n_echos):
-    delays.append(delays[0] * (i + 1))   # 遅延時間は線形的
+    delays.append(delays[0] * (i + 1))  # 遅延時間は線形的
     decays.append(decays[0] ** (i + 1))  # 減衰率は指数的
 
-# エコーをかける
+# transformerにエコーを設定する
 transformer.echo(n_echos=n_echos, delays=delays, decays=decays)
+
+# エコーをかけた結果をファイルに保存
 transformer.build(IN_WAVE_FILE, OUT_WAVE_FILE)
+
+# 音声ファイルを開く (dataが音声データ)
+sr, data = wavfile.read(IN_WAVE_FILE)
+
+# エコーをかけた結果をarrayとして取得
+echos = transformer.build_array(IN_WAVE_FILE)
