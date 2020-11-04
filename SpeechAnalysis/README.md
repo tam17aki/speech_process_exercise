@@ -17,6 +17,7 @@ pip3 install pysptk
   - オリジナル [feat_gla.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_gla.py)
   - Masuyama氏らが提案したADMMに基づく高速版アルゴリズム [feat_admm_gla.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_admm_gla.py)
 - メルスペクトログラム
+  - librosa利用 [feat_melspec.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.py)
 - MFCC
 - ケプストラム、メルケプストラム
 - LPC係数、PARCOR係数、LSP係数
