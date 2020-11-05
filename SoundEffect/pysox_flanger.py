@@ -47,6 +47,7 @@ SHAPE = "sine"  # フランジャのスイープ特性;
 # sine的に遅延時間が変化 or 三角波("triangle")的に遅延時間が変化
 
 PHASE = 0  # 多チャネルの音にフランジャをかけるときの位相ずれ率 (%)
+# 実際の位相ズレはPHASE×2π[rad]
 
 # transformerにフランジャを設定する
 transformer.flanger(
@@ -55,7 +56,7 @@ transformer.flanger(
     regen=REGEN,
     width=WIDTH,
     speed=SPEED,
-    shape="sine",
+    shape=SHAPE,
     phase=PHASE,
 )
 
