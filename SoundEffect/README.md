@@ -18,3 +18,4 @@ pip3 install sox
 - ローパスフィルタ / ハイパスフィルタ ([pysox_lowpass-highpass.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_lowpass-highpass.py))
 - バンドパスフィルタ / バンドリジェクトフィルタ ([pysox_bandpass_bandreject.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_bandpass_bandreject.py))
 - トレモロ ([pysox_tremolo.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_tremolo.py))
+- フランジャ（[pysox_flanger.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_flanger.py)）
