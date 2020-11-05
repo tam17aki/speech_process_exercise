@@ -34,3 +34,4 @@ pip3 install sounddevice
   - librosaを利用 [librosa_plot_specgram.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_specgram.py)
 ### Jupyter notebook
 - wavファイルの再生 [wave_play_wav.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_play_wav.ipynb)
+- 波形プロット [plt_waveform.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform.ipynb)
