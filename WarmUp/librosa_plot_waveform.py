@@ -45,7 +45,16 @@ data = data.astype(np.float64)
 plt.figure(figsize=(10, 4))
 
 # 波形の表示
-librosa.display.waveplot(data, fs)
+librosa.display.waveplot(data, sr=fs)
+
+# x軸のラベル
+plt.xlabel("Time (sec)")
+
+# y軸のラベル
+plt.ylabel("Amplitude")
+
+# 画像のタイトル
+plt.title("Waveform")
 
 # 余白を少なくする
 plt.tight_layout()
