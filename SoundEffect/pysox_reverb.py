@@ -62,7 +62,7 @@ WET_ONLY = False
 
 # ##############################################################
 
-# リバーブをかける
+# transformerにリバーブを設定する
 transformer.reverb(
     reverberance=REVERBERANCE,
     high_freq_damping=HIGH_FREQ_DAMPING,
@@ -72,6 +72,8 @@ transformer.reverb(
     wet_gain=WET_GAIN,
     wet_only=WET_ONLY,
 )
+
+# リバーブをかけた結果をファイルに保存
 transformer.build(IN_WAVE_FILE, OUT_WAVE_FILE)
 
 # リバーブをかけた結果をarrayとして取得
