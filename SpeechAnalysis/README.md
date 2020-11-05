@@ -8,7 +8,7 @@ pip3 install pysptk
 
 ## ファイル一覧
 - 音声のフレーム分割と窓掛け
-  - librosaとPySPTK利用
+  - librosaとPySPTK利用 [feat_frame_window.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_frame_window.py)
 - 短時間フーリエ変換（stft）
 - 逆短時間フーリエ変換（istft; オーバーラップ加算）
 - 音声の短時間フーリエ変換と逆短時間フーリエ変換（scipy利用）
