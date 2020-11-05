@@ -8,6 +8,7 @@ pip3 install sounddevice
 ```
 
 ## ファイル一覧
+### Python スクリプト
 - wavファイルの読み込みと書き込み
   - waveモジュールによる読み込みと書き込み [wave_read_write.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_read_write.py)
   - scipyのwavfileモジュールによる読み込みと書き込み [wave_read_write_scipy.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_read_write_scipy.py)
@@ -31,3 +32,4 @@ pip3 install sounddevice
 - スペクトログラムのプロット
   - matplotlibを利用 [plt_specgram.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_specgram.py)
   - librosaを利用 [librosa_plot_specgram.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_specgram.py)
+### Jupyter notebook
