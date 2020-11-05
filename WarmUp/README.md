@@ -27,5 +27,6 @@ pip3 install sounddevice
 - 波形プロット
   - matplotlibを利用；waveモジュールによる音声読み込み [plt_waveform.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform.py)
   - matplotlibを利用；scipyのwavfileモジュールによる音声読み込み [plt_waveform_scipy.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform_scipy.py)
+  - librosaを利用 [librosa_plot_waveform.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_waveform.py)
 - スペクトログラムのプロット
   - matplotlibを利用 [plt_specgram.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_specgram.py)
