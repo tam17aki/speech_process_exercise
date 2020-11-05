@@ -26,7 +26,6 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Commentary:
-# matplotlib を用いた波形プロット
 # 波形読み込みはscipy.ioのwavfileモジュール
 # sounddeviceモジュールによるwav再生
 
