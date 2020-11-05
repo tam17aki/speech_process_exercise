@@ -12,6 +12,7 @@ pip3 install sox
 - 量子化ビット数を変更 ([pysox_change_bitdepth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_change_bitdepth.py))
 - サンプリング周波数を変更 ([pysox_change_samplerate.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_change_samplerate.py))
 - アップサンプリング（[pysox_upsample.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_upsample.py)）
+- ダウンサンプリング（[pysox_downsample.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_downsample.py)）
 - エコー ([pysox_echo.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_echo.py))
 - リバーブ ([pysox_reverb.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_reverb.py))
 - ピッチシフト ([pysox_pitchshift.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_pitchshift.py))
