@@ -8,7 +8,7 @@ pip3 install pysptk
 
 ## ファイル一覧
 - 音声のフレーム分割と窓掛け
-  - PySPTK利用
+  - librosaとPySPTK利用
 - 短時間フーリエ変換（stft）
 - 逆短時間フーリエ変換（istft; オーバーラップ加算）
 - 音声の短時間フーリエ変換と逆短時間フーリエ変換（scipy利用）
