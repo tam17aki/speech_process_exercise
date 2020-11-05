@@ -6,7 +6,7 @@ pip3 install sox
 ```
 
 ## ファイル一覧
-### PySoXを用いた音声加工（サウンドエフェクト処理）
+### PySoXを用いた音声加工とサウンドエフェクト処理
 - wavからrawへ ([pysox_wav2raw.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_wav2raw.py))
 - ステレオからモノラルへ ([pysox_stereo2mono.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_stereo2mono.py))
 - 量子化ビット数を変更 ([pysox_change_bitdepth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_change_bitdepth.py))
