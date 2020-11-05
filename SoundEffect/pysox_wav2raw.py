@@ -27,12 +27,12 @@
 
 # Commentary:
 # - PySoxを用いた音声情報処理シリーズ
-# - wav から raw
+# - wav から raw に変換
 
 import sox
 
-IN_WAVE_FILE = "mono.wav"            # モノラル音声
-OUT_RAW_FILE = "out.raw"             # ヘッダファイルを抜いたもの
+IN_WAVE_FILE = "in.wav"  # モノラル音声
+OUT_RAW_FILE = "out.raw"  # ヘッダファイルを抜いたもの
 
 # create trasnformer (単一ファイルに対する重ねがけ)
 transformer = sox.Transformer()
