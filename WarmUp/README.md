@@ -25,6 +25,8 @@ pip3 install sounddevice
 - wavファイルの再生
   - sounddeviceモジュール [sounddevice_play_wav.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/sounddevice_play_wav.py)
   - subprocessモジュール & 外部再生コマンド [subprocess_play_wav.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/subprocess_play_wav.py)
+- wavファイルの録音
+  - sounddeviceモジュール；scipyのwavfileモジュールによる音声書き込み [sounddevice_rec_wav_scipy.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/sounddevice_rec_wav_scipy.py)
 - 波形プロット
   - matplotlibを利用；waveモジュールによる音声読み込み [plt_waveform.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform.py)
   - matplotlibを利用；scipyのwavfileモジュールによる音声読み込み [plt_waveform_scipy.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform_scipy.py)
