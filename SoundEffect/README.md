@@ -1,4 +1,4 @@
-# 第3章 音声加工とサウンドエフェクト
+# 音声加工とサウンドエフェクト
 ## はじめに
 ```
 brew install sox
@@ -23,3 +23,6 @@ pip3 install sox
 - フランジャ（[pysox_flanger.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_flanger.py)）
 
 ### Jupyter notebook
+- エコー [pysox_echo.ipynb]
+- ピッチシフト [pysox_pitchshift.ipynb]
+- タイムストレッチ [pysox_timestretch.ipynb]
