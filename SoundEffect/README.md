@@ -7,6 +7,7 @@ pip3 install sox
 
 ## ファイル一覧
 ### Pythonスクリプト
+#### PySox利用
 - wavからrawへ ([pysox_wav2raw.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_wav2raw.py))
 - ステレオからモノラルへ ([pysox_stereo2mono.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_stereo2mono.py))
 - 量子化ビット数を変更 ([pysox_change_bitdepth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_change_bitdepth.py))
