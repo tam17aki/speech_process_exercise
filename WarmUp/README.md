@@ -38,7 +38,7 @@ pip3 install sounddevice
 ### Jupyter notebook
 - wavファイルの再生 [wave_play_wav.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_play_wav.ipynb)
 - 波形プロット [plt_waveform.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform.ipynb)
-- 波形プロット（librosa利用） [librosa_plot_waveform.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_waveform.ipynb)
+- 波形プロット（librosa利用） [librosa_plot_waveform.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_waveform.ipynb)
 - スペクトログラムのプロット [plt_specgram.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_specgram.ipynb)
 - スペクトログラムのプロット（librosa利用） [librosa_plot_specgram.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_specgram.ipynb)
 - 白色雑音のプロットと再生 [plt_whitenoise.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_whitenoise.ipynb)
