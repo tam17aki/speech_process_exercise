@@ -6,8 +6,7 @@ pip3 install sox
 ```
 
 ## ファイル一覧
-### PySoXを用いた音声加工とサウンドエフェクト処理（重ねがけなし）
-#### Pythonスクリプト
+### Pythonスクリプト
 - wavからrawへ ([pysox_wav2raw.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_wav2raw.py))
 - ステレオからモノラルへ ([pysox_stereo2mono.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_stereo2mono.py))
 - 量子化ビット数を変更 ([pysox_change_bitdepth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_change_bitdepth.py))
@@ -22,3 +21,5 @@ pip3 install sox
 - バンドパスフィルタ / バンドリジェクトフィルタ ([pysox_bandpass_bandreject.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_bandpass_bandreject.py))
 - トレモロ ([pysox_tremolo.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_tremolo.py))
 - フランジャ（[pysox_flanger.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_flanger.py)）
+
+### Jupyter notebook
