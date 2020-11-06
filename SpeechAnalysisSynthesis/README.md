@@ -23,4 +23,4 @@ pip3 install pyworld
 - メルケプストラム分析による再合成　[pysptk_anasyn_mlsa.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pysptk_anasyn_mlsa.ipynb)
 - メルケプストラム分析による再合成 (パラメタを変えていろいろな声を合成)
 [pysptk_anasyn_mlsa_others.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pysptk_anasyn_mlsa_others.ipynb)
-- WORLDによる再合成　[pysptk_anasyn_world.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pysptk_anasyn_world.ipynb)
+- WORLDによる再合成　[pyworld_anasyn.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pyworld_anasyn.ipynb)
