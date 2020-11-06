@@ -29,3 +29,4 @@ pip3 install sox
 - ピッチシフト [pysox_pitchshift.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_pitchshift.ipynb)
 - タイムストレッチ [pysox_timestretch.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_timestretch.ipynb)
 - トレモロ [pysox_tremolo.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_tremolo.ipynb)
+- 量子化ビット数を変更 [pysox_change_bitdepth.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_change_bitdepth.ipynb)
