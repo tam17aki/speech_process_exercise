@@ -40,4 +40,3 @@ pip3 install sounddevice
 - 波形プロット [plt_waveform.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform.ipynb)
 - 波形プロット（librosa利用） [librosa_plot_waveform.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_waveform.ipynb)
 - スペクトログラムのプロット [librosa_plot_specgram.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_specgram.ipynb)
-pip3 install sounddevice
