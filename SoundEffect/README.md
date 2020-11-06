@@ -25,6 +25,6 @@ pip3 install sox
 
 ### Jupyter notebook
 - エコー [pysox_echo.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_echo.ipynb)
-- リバーブ [pysox_reverb.ipynb]
-- ピッチシフト [pysox_pitchshift.ipynb]
-- タイムストレッチ [pysox_timestretch.ipynb]
+- リバーブ [pysox_reverb.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_reverb.ipynb)
+- ピッチシフト [pysox_pitchshift.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_pitchshift.ipynb)
+- タイムストレッチ [pysox_timestretch.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_timestretch.ipynb)
