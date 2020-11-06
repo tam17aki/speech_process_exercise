@@ -1,5 +1,6 @@
 # ディジタル信号処理の基礎
 ## ファイル一覧
+### Pythonスクリプト
 - 正弦波の作成 ([dsp_sine.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine.py)) と プロット ([dsp_sine_plot.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_plot.py))
   - うなりが発生する正弦波の作成 ([dsp_sine_beat.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_beat.py))
   - 雑音を重畳した正弦波の作成 ([dsp_sine_addnoise.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_addnoise.py)) と プロット ([dsp_sine_addnoise_plot.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine_addnoise_plot.py))
@@ -25,3 +26,6 @@
 - おまけ（フーリエ級数近似のアニメーション作成）
   - 矩形波 ([dsp_rectangle_anime.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_rectangle_anime.py))、アニメーション ([rectangle_anime.mp4](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/rectangle_anime.mp4)) 
   - ノコギリ波 ([dsp_sawtooth_anime.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sawtooth_anime.py))、アニメーション ([sawtooth_anime.mp4](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/sawtooth_anime.mp4)) 
+
+### Jupyter notebook
+- 正弦波の作成 ([dsp_sine.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine.ipynb))
