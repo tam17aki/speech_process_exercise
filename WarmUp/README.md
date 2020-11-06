@@ -39,4 +39,4 @@ pip3 install sounddevice
 - wavファイルの再生 [wave_play_wav.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_play_wav.ipynb)
 - 波形プロット [plt_waveform.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_waveform.ipynb)
 - 波形プロット（librosa利用） [librosa_plot_waveform.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_waveform.ipynb)
-- スペクトログラムのプロット [librosa_plot_specgram.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_specgram.ipynb)
+- スペクトログラムのプロット（librosa利用） [librosa_plot_specgram.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_specgram.ipynb)
