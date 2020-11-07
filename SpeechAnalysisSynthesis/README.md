@@ -17,7 +17,7 @@ pip3 install pyworld
 - WORLDによる再合成　[pyworld_anasyn.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pyworld_anasyn.py)
 
 ### Jupyter notebook
-- 線形予測分析による分析再合成 [pysptk_anasyn_lpc.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pysptk_anasyn_lpc.ipynb)
+- 線形予測分析による分析再合成 [pysptk_anasyn_lpc.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pysptk_anasyn_lpc.ipynb)
 - PARCOR分析による分析再合成 [pysptk_anasyn_parcor.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pysptk_anasyn_parcor.ipynb)
 - 線スペクトル対による分析再合成 [pysptk_anasyn_lsp.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pysptk_anasyn_lsp.ipynb)
 - メルケプストラム分析による再合成　[pysptk_anasyn_mlsa.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pysptk_anasyn_mlsa.ipynb)
