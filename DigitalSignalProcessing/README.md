@@ -28,4 +28,4 @@
   - ノコギリ波 ([dsp_sawtooth_anime.py](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sawtooth_anime.py))、アニメーション ([sawtooth_anime.mp4](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/sawtooth_anime.mp4)) 
 
 ### Jupyter notebook
-- 正弦波の作成 ([dsp_sine.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine.ipynb))
+- 正弦波の作成 ([dsp_sine.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine.ipynb))
