@@ -27,15 +27,16 @@
 
 # Commentary:
 # - librosaによるフレーム化処理
-# - PySPTKによる窓掛け
+# - scipy.signalによる窓掛け
 
 import librosa
+import matplotlib.pyplot as plt
 import numpy as np
-import pysptk
+from scipy import signal
 from scipy.io import wavfile
 
-FRAME_LENGTH = 1024
-HOP_LENGTH = 80
+FRAME_LENGTH = 1024  # フレーム長
+HOP_LENGTH = 80  # フレームシフト
 
 IN_WAVE_FILE = "in.wav"  # 入力音声
 
@@ -45,7 +46,17 @@ x = x.astype(np.float64)
 
 # 音声のフレーム化
 frames = librosa.util.frame(x, frame_length=FRAME_LENGTH, hop_length=HOP_LENGTH)
+# frame関数は (フレーム長, フレーム数)で返すので、(フレーム数, フレーム長)に転置
 frames = frames.astype(np.float64).T
 
 # 窓掛け（ブラックマン窓）
-frames *= pysptk.blackman(FRAME_LENGTH)
+window = signal.blackman(FRAME_LENGTH)
+frames_after = frames * window
+
+# 窓掛け前後の音声波形を観察
+frame_number = 100  # 第100フレーム
+plt.figure(figsize=(8, 4))
+plt.plot(frames[frame_number, :], label="before windowed")
+plt.plot(frames_after[frame_number, :], label="after windowed")
+plt.legend()
+plt.show()
