@@ -20,8 +20,7 @@ pip3 install pysptk
 - メルスペクトログラム
   - librosa利用 [feat_melspec.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.py)
 - MFCC
-  - PySPTK利用
-  - librosa利用
+  - librosa利用 [feat_mfcc.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_mfcc.py)
 - ケプストラム、メルケプストラム
 - LPC係数
   - PySPTK利用
