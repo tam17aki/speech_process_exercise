@@ -16,7 +16,7 @@ pip3 install pysptk
 - スペクトログラム
 - 位相復元（Griffin-Limアルゴリズム）
   - オリジナル [feat_gla.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_gla.py)
-  - Masuyama氏らが提案したADMMに基づく高速版アルゴリズム [feat_admm_gla.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_admm_gla.py)
+  - Masuyama氏らが提案したADMMに基づく高速版アルゴリズム [feat_gla_admm.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_gla_admm.py)
 - メルスペクトログラム
   - librosa利用 [feat_melspec.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.py)
 - MFCC
