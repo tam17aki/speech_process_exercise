@@ -37,5 +37,6 @@ pip3 install pysptk
 - メルスペクトログラムの抽出
   - [feat_melspec.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.ipynb)
 - 基本周波数の抽出
+  - YINアルゴリズム [feat_fo_yin.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_yin.ipynb)
   - probabilistic YINアルゴリズム [feat_fo_pyin.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_pyin.ipynb)
   - ケプストラム法 [feat_fo_cepstrum.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_cepstrum.ipynb)
