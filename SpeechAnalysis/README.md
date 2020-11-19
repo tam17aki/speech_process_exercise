@@ -34,5 +34,7 @@ pip3 install pysptk
   - 自己相関法 [feat_fo_autocorr.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_autocorr.py)
   - ケプストラム法 [feat_fo_cepstrum.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_cepstrum.py)
 ### Jupyter notebook
+- メルスペクトログラムの抽出
+  - [feat_melspec.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.ipynb)
 - 基本周波数の抽出
-  - probabilistic YINアルゴリズム [feat_fo_pyin.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_pyin.ipynb)
+  - probabilistic YINアルゴリズム [feat_fo_pyin.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_pyin.ipynb)
