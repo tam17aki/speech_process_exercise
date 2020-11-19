@@ -84,12 +84,23 @@ fo_seq = np.zeros(frames.shape[0])
 fo_seq[voiced] = fo
 
 # 基本周波数の系列を表示
-fig = plt.figure(figsize=(12, 4))
-plt.plot(fo_seq)
-plt.xlabel("Frame number")
-plt.ylabel("Frequency (Hz)")
-plt.title("Estimation of fundamental frequency via cepstrum method")
-plt.tight_layout()
-plt.xlim(0, len(fo_seq) - 1)
+fig = plt.figure(figsize=(12, 6))
+n_samples = len(data)
+time = np.arange(n_samples) / fs
+axes = fig.add_subplot(2, 1, 1)
+axes.plot(time, data)
+axes.set_xlabel("Time (sec)")
+axes.set_ylabel("Amplitude")
+axes.set_title("Waveform")
+axes.set_xlim(0, np.max(time))
 
+axes = fig.add_subplot(2, 1, 2)
+axes.plot(fo_seq)
+axes.set_xlabel("Frame number")
+axes.set_ylabel("Frequency (Hz)")
+axes.set_title("Estimation of fundamental frequency via cepstrum method")
+axes.set_xlim(0, len(fo_seq) - 1)
+axes.set_ylim(0, MAX_Fo)
+
+plt.tight_layout()
 plt.show()
