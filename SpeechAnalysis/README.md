@@ -7,6 +7,7 @@ pip3 install pysptk
 ```
 
 ## ファイル一覧
+### Pythonスクリプト
 - 音声のフレーム分割と窓掛け
   - librosaとPySPTK利用 [feat_frame_window.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_frame_window.py)
 - 短時間フーリエ変換（stft）
@@ -32,3 +33,6 @@ pip3 install pysptk
   - probabilistic YINアルゴリズム [feat_fo_pyin.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_pyin.py)
   - 自己相関法 [feat_fo_autocorr.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_autocorr.py)
   - ケプストラム法 [feat_fo_cepstrum.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_cepstrum.py)
+### Jupyter notebook
+- 基本周波数の抽出
+  - probabilistic YINアルゴリズム [feat_fo_pyin.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_pyin.ipynb)
