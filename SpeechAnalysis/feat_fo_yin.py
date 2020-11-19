@@ -25,6 +25,11 @@
 
 # Commentary:
 # YIN による基本周波数推定
+#
+# De Cheveigné, Alain, and Hideki Kawahara,
+# “YIN, a fundamental frequency estimator for speech and music,”
+# The Journal of the Acoustical Society of America 111.4 (2002): 1917-1930.
+# https://asa.scitation.org/doi/10.1121/1.1458024
 
 import librosa
 import matplotlib.pyplot as plt
@@ -71,6 +76,7 @@ axes.set_xlabel("Frame number")
 axes.set_ylabel("Frequency (Hz)")
 axes.set_title("Estimation of fundamental frequency via YIN method")
 axes.set_xlim(0, len(fo) - 1)
+axes.set_ylim(0, MAX_Fo)
 
 plt.tight_layout()
 plt.show()
