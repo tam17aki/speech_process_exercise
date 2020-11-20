@@ -25,7 +25,7 @@ pip3 install pyworld
 - MFCC
   - librosa利用 [feat_mfcc.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_mfcc.py)
 - ケプストラム、メルケプストラム
-- LPC係数
+- 線形予測係数
   - PySPTK利用
   - librosa利用
 - PARCOR係数
