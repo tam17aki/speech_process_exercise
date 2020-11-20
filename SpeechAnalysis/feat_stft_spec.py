@@ -26,7 +26,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Commentary:
-# librosa を用いた
+# scipyによるstft計算とlibrosaを用いた表示
 
 import librosa
 import librosa.display
