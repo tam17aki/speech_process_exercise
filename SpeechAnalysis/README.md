@@ -16,6 +16,7 @@ pip3 install pyworld
 - 音声の短時間フーリエ変換と逆短時間フーリエ変換（scipy利用）
   - stftした直後にistftして音声を復元する [feat_stft_istft.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_stft_istft.py)
 - スペクトログラム
+  - stftした後に振幅スペクトルを計算 [feat_stft_spec.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_stft_spec.py)
 - 位相復元（Griffin-Limアルゴリズム）
   - オリジナル [feat_gla.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_gla.py)
   - Masuyama氏らが提案したADMMに基づく高速版アルゴリズム [feat_gla_admm.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_gla_admm.py)
@@ -37,6 +38,8 @@ pip3 install pyworld
   - ケプストラム法 [feat_fo_cepstrum.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_cepstrum.py)
   - DIOアルゴリズム [feat_fo_dio.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_dio.py)
 ### Jupyter notebook
+- スペクトログラム の抽出
+  - [feat_stft_spec.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_stft_spec.ipynb)
 - メルスペクトログラムの抽出
   - [feat_melspec.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.ipynb)
 - MFCCの抽出
