@@ -9,8 +9,6 @@ pip3 install pyworld
 
 ## ファイル一覧
 ### Pythonスクリプト
-- 音声のフレーム分割と窓掛け
-  - librosa利用 [feat_frame_window.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_frame_window.py)
 - 短時間フーリエ変換（stft）
 - 逆短時間フーリエ変換（istft; オーバーラップ加算）
 - 音声の短時間フーリエ変換と逆短時間フーリエ変換（scipy利用）
