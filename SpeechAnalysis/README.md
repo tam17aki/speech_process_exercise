@@ -37,18 +37,18 @@ pip3 install pyworld
   - DIOアルゴリズム [feat_fo_dio.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_dio.py)
 ### Jupyter notebook
 - スペクトログラム の抽出
-  - [feat_stft_spec.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_stft_spec.ipynb)
+  - [feat_stft_spec.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_stft_spec.ipynb)
 - メルスペクトログラムの抽出
-  - [feat_melspec.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.ipynb)
+  - [feat_melspec.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.ipynb)
 - 位相復元（Griffin-Limアルゴリズム）
-  - オリジナル （librosa） [feat_librosa_gla.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_librosa_gla.ipynb)
-  - Masuyama氏らが提案したADMMに基づく高速版アルゴリズム [feat_gla_admm.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_gla_admm.ipynb)
+  - オリジナル （librosa） [feat_librosa_gla.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_librosa_gla.ipynb)
+  - Masuyama氏らが提案したADMMに基づく高速版アルゴリズム [feat_gla_admm.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_gla_admm.ipynb)
 - MFCCの抽出
-  - [feat_mfcc.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_mfcc.ipynb)
+  - [feat_mfcc.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_mfcc.ipynb)
 - 基本周波数の抽出
-  - YINアルゴリズム [feat_fo_yin.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_yin.ipynb)
-  - probabilistic YINアルゴリズム [feat_fo_pyin.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_pyin.ipynb)
-  - 自己相関法 [feat_fo_autocorr.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_autocorr.ipynb)
-  - 変形自己相関法 [feat_fo_autocorr_variant.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_autocorr_variant.ipynb)
-  - ケプストラム法 [feat_fo_cepstrum.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_cepstrum.ipynb)
-  - DIOアルゴリズム [feat_fo_dio.ipynb](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_dio.ipynb)
+  - YINアルゴリズム [feat_fo_yin.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_yin.ipynb)
+  - probabilistic YINアルゴリズム [feat_fo_pyin.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_pyin.ipynb)
+  - 自己相関法 [feat_fo_autocorr.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_autocorr.ipynb)
+  - 変形自己相関法 [feat_fo_autocorr_variant.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_autocorr_variant.ipynb)
+  - ケプストラム法 [feat_fo_cepstrum.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_cepstrum.ipynb)
+  - DIOアルゴリズム [feat_fo_dio.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_dio.ipynb)
