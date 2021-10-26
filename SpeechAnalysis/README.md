@@ -41,7 +41,8 @@ pip3 install pyworld
 - メルスペクトログラムの抽出
   - [feat_melspec.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.ipynb)
 - 位相復元（Griffin-Limアルゴリズム）
-  - オリジナル （librosa） [feat_librosa_gla.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_librosa_gla.ipynb)
+  - オリジナル [feat_gla.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_gla.ipynb)
+  - Fast Griffin-Limアルゴリズム （librosa） [feat_librosa_gla.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_librosa_gla.ipynb)
   - Masuyama氏らが提案したADMMに基づく高速版アルゴリズム [feat_gla_admm.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_gla_admm.ipynb)
 - MFCCの抽出
   - [feat_mfcc.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_mfcc.ipynb)
