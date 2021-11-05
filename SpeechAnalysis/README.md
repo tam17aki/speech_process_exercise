@@ -10,6 +10,7 @@ pip3 install pyworld
 ## ファイル一覧
 ### Pythonスクリプト
 - 短時間フーリエ変換（stft）
+  - scipy利用 [feat_stft.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_stft.py)
 - 逆短時間フーリエ変換（istft; オーバーラップ加算）
 - 音声の短時間フーリエ変換と逆短時間フーリエ変換（scipy利用）
   - stftした直後にistftして音声を復元する [feat_stft_istft.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_stft_istft.py)
