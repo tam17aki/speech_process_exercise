@@ -22,7 +22,8 @@ pip3 install pyworld
   - librosa利用 [feat_melspec.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_melspec.py)
 - MFCC
   - librosa利用 [feat_mfcc.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_mfcc.py)
-- ケプストラム [feat_cepstrum.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_cepstrum.py)
+- ケプストラム
+  - リフタリングによりスペクトル包絡を抽出 [feat_cepstrum.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_cepstrum.py)
 - メルケプストラム
 - 線形予測係数
   - PySPTK利用
