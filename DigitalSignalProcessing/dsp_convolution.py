@@ -48,9 +48,6 @@ for n in range(0, len(y)):
     for k in range(0, n + 1):
         y[n] = y[n] + hzero[k] * xzero[n - k]
 
-# numpy implementation
-y_true = np.convolve(h, x, "full")
-
 fig = plt.figure(figsize=(18, 4))
 for i, (s, l) in enumerate(zip([x, h, y], ["input", "impulse response", "output"])):
     fig.add_subplot("13%d" % (i + 1))
