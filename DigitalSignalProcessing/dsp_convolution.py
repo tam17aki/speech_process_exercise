@@ -59,3 +59,18 @@ for i, (s, l) in enumerate(zip([x, h, y], ["input", "impulse response", "output"
     plt.grid()
 
 plt.show()
+
+# numpy implementation
+y_true = np.convolve(h, x, "full")
+fig = plt.figure(figsize=(18, 4))
+for i, (s, l) in enumerate(zip([x, h, y_true],
+                               ["input", "impulse response (numpy)", "output"])):
+    fig.add_subplot("13%d" % (i + 1))
+    plt.plot(s, "-o", label=l)
+    plt.xlim(0, len(y_true))
+    plt.legend()
+    plt.xlabel("Time index")
+    plt.ylabel("Magnitude")
+    plt.grid()
+
+plt.show()
