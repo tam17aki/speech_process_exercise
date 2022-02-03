@@ -31,38 +31,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-
-def convolve(h, x):
-    """
-    Perform convolution.
-
-    input
-    ----------
-    h: M-length list
-      Impulse response h[0], ... h[M-1]
-
-    x: N-length list
-      input signal x[0] ... x[N-1]
-    ----------
-
-    output
-    ----------
-    y: (M + N - 1)-length list
-      output signal y[0] ... y[M+N-2]
-    """
-
-    y = np.zeros(len(h) + len(x) - 1, dtype=np.float32)
-
-    hzero = np.hstack([h, np.zeros(len(x) - 1)])
-    xzero = np.hstack([x, np.zeros(len(h) - 1)])
-
-    for n in range(0, len(y)):
-        for k in range(0, n + 1):
-            y[n] = y[n] + hzero[k] * xzero[n - k]
-
-    return y
-
-
 # input signal
 x = np.zeros(32, dtype=np.float32)
 x[0], x[20] = 2.0, 1.0
@@ -71,7 +39,14 @@ x[0], x[20] = 2.0, 1.0
 h = np.exp(- np.arange(16) / 4.0) * np.sin(2.0 * np.pi * np.arange(16) / 15.0)
 
 # output signal
-y = convolve(h, x)
+y = np.zeros(len(h) + len(x) - 1, dtype=np.float32)
+hzero = np.hstack([h, np.zeros(len(x) - 1)])  # zero padding
+xzero = np.hstack([x, np.zeros(len(h) - 1)])  # zero padding
+
+# convolution
+for n in range(0, len(y)):
+    for k in range(0, n + 1):
+        y[n] = y[n] + hzero[k] * xzero[n - k]
 
 # numpy implementation
 y_true = np.convolve(h, x, "full")
