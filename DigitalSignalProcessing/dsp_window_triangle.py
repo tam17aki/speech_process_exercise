@@ -34,13 +34,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import signal
 
-n_framerate = 2000            # 標本化周波数 (Hz)
+n_framerate = 2000  # 標本化周波数 (Hz)
 
-freq = 20                     # 正弦波の周波数 (Hz)
-duration = 1                  # 音の継続時間 (sec)
-amplitude = 8000              # 正弦波の振幅
+freq = 20  # 正弦波の周波数 (Hz)
+duration = 1  # 音の継続時間 (sec)
+amplitude = 8000  # 正弦波の振幅
 
-T = 1.0 / n_framerate         # 標本化周期 (sec)
+T = 1.0 / n_framerate  # 標本化周期 (sec)
 
 # 三角窓の作成
 window_len = 1025

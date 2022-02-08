@@ -34,22 +34,24 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import signal
 
-n_framerate = 2000            # 標本化周波数 (Hz)
+n_framerate = 2000  # 標本化周波数 (Hz)
 
-freq = 20                     # 正弦波の周波数 (Hz)
-duration = 1                  # 音の継続時間 (sec)
-amplitude = 8000              # 正弦波の振幅
+freq = 20  # 正弦波の周波数 (Hz)
+duration = 1  # 音の継続時間 (sec)
+amplitude = 8000  # 正弦波の振幅
 
-T = 1.0 / n_framerate         # 標本化周期 (sec)
+T = 1.0 / n_framerate  # 標本化周期 (sec)
 
-# Hann窓の作成
-WINDOW_LEN = 1025
-blackman_window = signal.blackman(WINDOW_LEN)
-blackman_window_scratch = np.empty(WINDOW_LEN)
-for n in range(WINDOW_LEN):
-    blackman_window_scratch[n] = 0.42 \
-        - 0.5 * np.cos(2 * np.pi * n / (WINDOW_LEN - 1)) \
-        + 0.08 * np.cos(4 * np.pi * n / (WINDOW_LEN - 1))
+# Blackman窓の作成
+window_len = 1025
+blackman_window = signal.blackman(window_len)
+blackman_window_scratch = np.empty(window_len)
+for n in range(window_len):
+    blackman_window_scratch[n] = (
+        0.42
+        - 0.5 * np.cos(2 * np.pi * n / (window_len - 1))
+        + 0.08 * np.cos(4 * np.pi * n / (window_len - 1))
+    )
 
 # scipyから作った窓関数と、定義式から作った窓関数をプロットして比較する
 plt.plot(blackman_window, label="scipy", linewidth=3)
@@ -65,11 +67,11 @@ time = np.arange(0, duration, T)  # 継続時間に等しい標本点の作成
 sine_wave = amplitude * np.sin(2 * np.pi * freq * time)
 
 # 正弦波に窓をかける
-windowed = sine_wave[:WINDOW_LEN] * blackman_window
+windowed = sine_wave[:window_len] * blackman_window
 
 # 正弦波のプロット
-plt.plot(time[:WINDOW_LEN], sine_wave[:WINDOW_LEN], label="original")
-plt.plot(time[:WINDOW_LEN], windowed, label="windowed")
+plt.plot(time[:window_len], sine_wave[:window_len], label="original")
+plt.plot(time[:window_len], windowed, label="windowed")
 plt.xlabel("Time (sec)")
 plt.ylabel("Amplitude")
 plt.title("Sine Wave")
