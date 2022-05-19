@@ -31,7 +31,6 @@
 import numpy as np
 import PySimpleGUI as sg  # GUI構築のライブラリ
 import sounddevice as sd  # 録音・再生系のライブラリ
-import speech_recognition as sr  # 音声認識のライブラリ
 import torch  # 深層学習のライブラリ
 from ttslearn.pretrained import create_tts_engine  # 音声合成ライブラリ
 
