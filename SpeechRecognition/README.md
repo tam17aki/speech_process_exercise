@@ -1,5 +1,13 @@
 # 第10章　音声認識
 
+## はじめに
+```
+pip3 install pysimplegui
+pip3 install sounddevice
+pip3 install soundfile
+pip3 install SpeechRecognition
+```
+
 ## PySimpleGUIによるGUIアプリ
 
 ## Google Colaboratory
