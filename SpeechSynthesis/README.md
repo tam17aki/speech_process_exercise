@@ -11,3 +11,4 @@ pip3 install ttslearn
 ```
 
 ## PySimpleGUIによるGUIアプリ
+- gTTSによるテキスト読み上げ ([synth_gtts.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_gtts.py))
