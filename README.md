@@ -9,7 +9,7 @@
 ## 第6章 機械学習
 ## 第7章 ニューラルネット
 ## 第8章 RNNとCNN
-## 第9章 音声合成
+## [第9章 音声合成](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechSynthesis)
 ## [第10章 音声認識](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechRecognition)
 ## 第11章 声質変換
 ## 第12章 話者認識
