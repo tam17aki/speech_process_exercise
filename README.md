@@ -10,7 +10,7 @@
 ## 第7章 ニューラルネット
 ## 第8章 RNNとCNN
 ## 第9章 音声合成
-## 第10章 音声認識
+## [第10章 音声認識](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechRecognition)
 ## 第11章 声質変換
 ## 第12章 話者認識
 ## [第13章 音の電子透かし](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioWatermark)
