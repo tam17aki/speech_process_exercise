@@ -1,5 +1,7 @@
 # 第10章　音声認識
 
+## PySimpleGUIによるGUIアプリ
+
 ## Google Colaboratory
 - Juliusの日本語ディクテーションキット ([Link](https://colab.research.google.com/drive/1pdp9lmzzslLzN95iu69siTkTxMk-hzXf?usp=sharing))
 - SpeechRecognition ライブラリのデモンストレーション ([Link](https://colab.research.google.com/drive/1w96tb5SxCPWqnNXaVlFQpaMPzJ24w0F3?usp=sharing)) 
