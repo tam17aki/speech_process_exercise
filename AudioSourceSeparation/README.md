@@ -1,4 +1,4 @@
-# 第10章 音源分離
+# 音源分離
 ## はじめに
 ```
 pip3 install pyroomacoustics
