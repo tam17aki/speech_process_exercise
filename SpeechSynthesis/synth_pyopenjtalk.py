@@ -26,7 +26,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Commentary:
-# PyOpenJTalkによる音声合成のサンプルスクリプト
+# PyOpenJTalkによるテキスト音声合成のサンプルスクリプト
 
 import numpy as np
 import pyopenjtalk
