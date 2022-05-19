@@ -12,6 +12,7 @@ pip3 install wikipedia
 
 ## PySimpleGUIによるGUIアプリ
 - Google Homeもどき ([google_mode_modoki.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/google_mode_modoki.py))
+- 音声認識結果を使ったWikipedia検索＆読み上げ ([recog_wikipedia.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/recog_wikipedia.py))
 
 ## Google Colaboratory
 - Juliusの日本語ディクテーションキット ([Link](https://colab.research.google.com/drive/1pdp9lmzzslLzN95iu69siTkTxMk-hzXf?usp=sharing))
