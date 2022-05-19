@@ -8,7 +8,7 @@ pip3 install sox
 ## 使用データ
 以下からダウンロード
 - [in.wav](https://drive.google.com/file/d/1lsN-is31x_snFBTNGR05pQwX9RhzC8sb/view?usp=sharing)
-- [mono.wav](https://drive.google.com/file/d/1lsN-is31x_snFBTNGR05pQwX9RhzC8sb/view?usp=sharing)
+- [mono.wav](https://drive.google.com/file/d/1_nKAtHg4qsY0HMdLxrYsVywqDqdjY9GA/view?usp=sharing)
 - [stereo.wav](https://drive.google.com/file/d/1V1Uwb1UAD51ouy9t0B89lWsDjErFPSpZ/view?usp=sharing)
 
 ## ファイル一覧
