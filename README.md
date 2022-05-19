@@ -6,12 +6,10 @@
 ## [第3章 音声加工とサウンドエフェクト](https://github.com/tam17aki/speech_process_exercise/tree/master/SoundEffect)
 ## [第4章 音声の特徴量抽出](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechAnalysis)
 ## [第5章 音声の分析合成](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechAnalysisSynthesis)
-## 第6章 機械学習
-## 第7章 ニューラルネット
-## 第8章 RNNとCNN
-## [第9章 音声合成](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechSynthesis)
-## [第10章 音声認識](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechRecognition)
-## 第11章 声質変換
-## 第12章 話者認識
-## [第13章 音の電子透かし](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioWatermark)
-## [第14章 音源分離](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioSourceSeparation)
+## [第6章 音声合成](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechSynthesis)
+## [第7章 音声認識](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechRecognition)
+## 第8章 声質変換
+## 第9章 話者認識
+## [第10章 音源分離](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioSourceSeparation)
+## [第11章 音の電子透かし](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioWatermark)
+
