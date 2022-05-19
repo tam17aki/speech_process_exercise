@@ -6,6 +6,8 @@ pip3 install pysimplegui
 pip3 install sounddevice
 pip3 install soundfile
 pip3 install SpeechRecognition
+pip3 install gtts
+pip3 install wikipedia
 ```
 
 ## PySimpleGUIによるGUIアプリ
