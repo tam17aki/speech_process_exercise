@@ -5,6 +5,12 @@ brew install sox
 pip3 install sox
 ```
 
+## 使用データ
+以下からダウンロード
+- [in.wav](https://drive.google.com/file/d/1lsN-is31x_snFBTNGR05pQwX9RhzC8sb/view?usp=sharing)
+- [mono.wav](https://drive.google.com/file/d/1lsN-is31x_snFBTNGR05pQwX9RhzC8sb/view?usp=sharing)
+- [stereo.wav](https://drive.google.com/file/d/1V1Uwb1UAD51ouy9t0B89lWsDjErFPSpZ/view?usp=sharing)
+
 ## ファイル一覧
 ### Pythonスクリプト
 #### PySox利用
@@ -32,6 +38,10 @@ pip3 install sox
 - 量子化ビット数を変更 [pysox_change_bitdepth.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/SoundEffect/pysox_change_bitdepth.ipynb)
 
 ### Google Colaboratory
+音声データはマイドライブ以下、/n-hon-knock/data/ に置くことを前提(in.wav, mono.wav, stereo.wav)
+
+例　"/content/drive/MyDrive/n-hon-knock/data/in.wav"
+
 - wavからrawへ ([Link](https://colab.research.google.com/drive/1VeuLRCsv7rjF9Hj_nALpx0FRTAYl5-I7?usp=sharing))
 - ステレオからモノラルへ ([Link](https://colab.research.google.com/drive/1PBBO7C6zaDtqEwgW0obD7j2WoQE2O-n7?usp=sharing))
 - 量子化ビット数を変更 ([Link](https://colab.research.google.com/drive/1jq2lLLjO5PHHx2GOTGomUNxcsEwbHDuJ?usp=sharing))
