@@ -24,3 +24,11 @@ pip3 install pyworld
 - メルケプストラム分析による再合成 (パラメタを変えていろいろな声を合成)
 [pysptk_anasyn_mlsa_others.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pysptk_anasyn_mlsa_others.ipynb)
 - WORLDによる再合成　[pyworld_anasyn.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pyworld_anasyn.ipynb)
+
+### Google Colaboratory
+- 線形予測分析による分析再合成 [pysptk_anasyn_lpc.ipynb](https://colab.research.google.com/drive/1nUHBRWUk4vQOCakDXC8T-BVvbZZ9jWXJ?usp=sharing)
+- PARCOR分析による分析再合成 [pysptk_anasyn_parcor.ipynb](https://colab.research.google.com/drive/1EFMi2VQfJ_kUwJKn367B-JZeOSbNSSaz?usp=sharing)
+- 線スペクトル対による分析再合成 [pysptk_anasyn_lsp.ipynb](https://colab.research.google.com/drive/1BxAMGzLgguA5HivfHuGmeyXIBD8uRWdN?usp=sharing)
+- メルケプストラム分析による再合成　[pysptk_anasyn_mlsa.ipynb](https://colab.research.google.com/drive/1TZml_LdOAqDBY3UEGtw_x5UPL8ok44P1?usp=sharing)
+- メルケプストラム分析による再合成 (パラメタを変えていろいろな声を合成)
+[pysptk_anasyn_mlsa_others.ipynb](https://colab.research.google.com/drive/13QK6S_vQdwgU7bX8pXdJErFjnNHnqeQy?usp=sharing)
