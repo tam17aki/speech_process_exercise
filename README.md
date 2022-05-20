@@ -8,7 +8,7 @@
 ## [第5章 音声の分析合成](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechAnalysisSynthesis)
 ## [第6章 音声合成](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechSynthesis)
 ## [第7章 音声認識](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechRecognition)
-## 第8章 声質変換
+## [第8章 音声変換](https://github.com/tam17aki/speech_process_exercise/tree/master/VoiceConversion)
 ## 第9章 話者認識
 ## [第10章 音源分離](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioSourceSeparation)
 ## [第11章 音の電子透かし](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioWatermark)
