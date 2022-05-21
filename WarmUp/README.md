@@ -43,6 +43,7 @@ pip3 install sounddevice
   - waveモジュールによる読み込みと書き込み [wave_read_write.ipynb](https://colab.research.google.com/drive/10M9oW_gRF5Om5NxqbzNAzA-aKNWqmHHu?usp=sharing)
   - scipyのwavfileモジュールによる読み込みと書き込み [wave_read_write_scipy.ipynb](https://colab.research.google.com/drive/17P6IDONQ7cGGZWd0Ld5qIqDs1Gwhx4VI?usp=sharing)
 - サンプリング周波数を変更したwavファイルの作成 [wave_change_framerate.ipynb](https://colab.research.google.com/drive/1ilsV-hoSZNTZRktswUzLR92VOMh3XkDa?usp=sharing)
+- 量子化ビット数を変更したwavファイルの作成 [wave_change_bitdepth.ipynb](https://colab.research.google.com/drive/1Ck2ebuTR9HNSy9E1mDpq1iPv6gFP02Yg?usp=sharing)
 - wavファイルの再生 [wave_play_wav.ipynb](https://colab.research.google.com/drive/1rZQEBuVzbJ2LhTeogAhYTEq1Zb4MFg3w?usp=sharing)
 - 波形プロット [plt_waveform.ipynb](https://colab.research.google.com/drive/18hc3xLmpRu5rsJKL6Po9ffUwmTuMftl6?usp=sharing)
 - 波形プロット（librosa利用）[librosa_plot_waveform.ipynb](https://colab.research.google.com/drive/1hKSNKo01GtNWPm2m9UOevbp8ECsYntZ-?usp=sharing)
