@@ -31,3 +31,7 @@
 
 ### Jupyter notebook
 - 正弦波の作成 ([dsp_sine.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/DigitalSignalProcessing/dsp_sine.ipynb))
+
+### Google Colaboratory
+- フーリエ級数近似のアニメーション作成
+  - 矩形波 [dsp_rectangle_anime.ipynb](https://colab.research.google.com/drive/1E_k-8nXhTHolwgAHdF_PdMe-cMpEPsq4?usp=sharing)
