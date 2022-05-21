@@ -18,3 +18,4 @@ pip3 install nussl
 - nussl
   - AudioSignal入門 [Introduction_to_AudioSignal.ipynb](https://colab.research.google.com/drive/1ntYryCmSam1El-WWIWRzYS8a9f8Fa8d5?usp=sharing)
   - STFT表現 [audio_signal_stft.ipynb](https://colab.research.google.com/drive/1ALGz70yCLTn1y6njR4D9DCr5qNIku_la?usp=sharing)
+  - 周波数マスキング入門 https://colab.research.google.com/drive/1qPyDcUAOwsfDZ_X1x_yn1Zqb2Ef52QUr?usp=sharing
