@@ -58,6 +58,6 @@ pip3 install pyworld
   - DIOアルゴリズム [feat_fo_dio.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_dio.ipynb)
 
 ### Google Colaboratory
-- 短時間フーリエ変換の計算およびスペクトログラムのプロット [feat_stft_spec.ipynb](https://colab.research.google.com/drive/1I6SrsgqwLfZItSAapMWzb-90lNLJWBZS?usp=sharing)
+- Scipyによる短時間フーリエ変換の計算およびスペクトログラムのプロット [feat_stft_spec.ipynb](https://colab.research.google.com/drive/1I6SrsgqwLfZItSAapMWzb-90lNLJWBZS?usp=sharing)
 - 位相復元
   - Masuyama氏らが提案したADMMに基づく高速位相復元アルゴリズム [feat_gla_admm.ipynb](https://colab.research.google.com/drive/1zUkhSgUgxmxBzjJZBwnRcz9yXvxxNDZT?usp=sharing)
