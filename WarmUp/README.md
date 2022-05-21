@@ -45,3 +45,4 @@ pip3 install sounddevice
 
 ### Google Colaboratory
 - wavファイルの再生 [wave_play_wav.ipynb](https://colab.research.google.com/drive/1rZQEBuVzbJ2LhTeogAhYTEq1Zb4MFg3w?usp=sharing)
+- 波形プロット [plt_waveform.ipynb](https://colab.research.google.com/drive/18hc3xLmpRu5rsJKL6Po9ffUwmTuMftl6?usp=sharing)
