@@ -12,16 +12,11 @@ pip3 install sounddevice
 - wavファイルの読み込みと書き込み
   - waveモジュールによる読み込みと書き込み [wave_read_write.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_read_write.py)
   - scipyのwavfileモジュールによる読み込みと書き込み [wave_read_write_scipy.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_read_write_scipy.py)
-- サンプリング周波数を変更したwavファイルの作成 
-  - [wave_change_framerate.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_change_framerate.py)
-- 量子化ビット数を変更したwavファイルの作成
-  - [wave_change_bitdepth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_change_bitdepth.py)
-- 振幅の正規化
-  - [wave_normalize.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_normalize.py)
-- ステレオからモノラルに変更
-  - [wave_stereo_to_mono.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_stereo_to_mono.py)
-- 白色雑音の作成と書き込み
-  - [wave_write_whitenoise.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_write_whitenoise.py)
+- サンプリング周波数を変更したwavファイルの作成 [wave_change_framerate.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_change_framerate.py)
+- 量子化ビット数を変更したwavファイルの作成 [wave_change_bitdepth.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_change_bitdepth.py)
+- 振幅の正規化 [wave_normalize.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_normalize.py)
+- ステレオからモノラルに変更 [wave_stereo_to_mono.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_stereo_to_mono.py)
+- 白色雑音の作成と書き込み [wave_write_whitenoise.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_write_whitenoise.py)
 - wavファイルの再生
   - sounddeviceモジュール [sounddevice_play_wav.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/sounddevice_play_wav.py)
   - subprocessモジュール & 外部再生コマンド [subprocess_play_wav.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/subprocess_play_wav.py)
@@ -47,6 +42,7 @@ pip3 install sounddevice
 - wavファイルの読み込みと書き込み
   - waveモジュールによる読み込みと書き込み [wave_read_write.ipynb](https://colab.research.google.com/drive/10M9oW_gRF5Om5NxqbzNAzA-aKNWqmHHu?usp=sharing)
   - scipyのwavfileモジュールによる読み込みと書き込み [wave_read_write_scipy.ipynb](https://colab.research.google.com/drive/17P6IDONQ7cGGZWd0Ld5qIqDs1Gwhx4VI?usp=sharing)
+- サンプリング周波数を変更したwavファイルの作成 [wave_change_framerate.ipynb](https://colab.research.google.com/drive/1ilsV-hoSZNTZRktswUzLR92VOMh3XkDa?usp=sharing)
 - wavファイルの再生 [wave_play_wav.ipynb](https://colab.research.google.com/drive/1rZQEBuVzbJ2LhTeogAhYTEq1Zb4MFg3w?usp=sharing)
 - 波形プロット [plt_waveform.ipynb](https://colab.research.google.com/drive/18hc3xLmpRu5rsJKL6Po9ffUwmTuMftl6?usp=sharing)
 - 波形プロット（librosa利用）[librosa_plot_waveform.ipynb](https://colab.research.google.com/drive/1hKSNKo01GtNWPm2m9UOevbp8ECsYntZ-?usp=sharing)
