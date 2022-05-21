@@ -7,6 +7,12 @@ pip3 install matplotlib
 pip3 install sounddevice
 ```
 
+## 使用データ
+以下からダウンロード
+- [in.wav](https://drive.google.com/file/d/1lsN-is31x_snFBTNGR05pQwX9RhzC8sb/view?usp=sharing)
+- [mono.wav](https://drive.google.com/file/d/1_nKAtHg4qsY0HMdLxrYsVywqDqdjY9GA/view?usp=sharing)
+- [stereo.wav](https://drive.google.com/file/d/1V1Uwb1UAD51ouy9t0B89lWsDjErFPSpZ/view?usp=sharing)
+
 ## ファイル一覧
 ### Python スクリプト
 - wavファイルの読み込みと書き込み
@@ -39,6 +45,11 @@ pip3 install sounddevice
 - 白色雑音のプロットと再生 [plt_whitenoise.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_whitenoise.ipynb)
 
 ### Google Colaboratory
+
+音声データはマイドライブ以下、/n-hon-knock/data/ に置くことを前提(in.wav, mono.wav, stereo.wav)
+
+例　"/content/drive/MyDrive/n-hon-knock/data/in.wav"
+
 - wavファイルの読み込みと書き込み
   - waveモジュールによる読み込みと書き込み [wave_read_write.ipynb](https://colab.research.google.com/drive/10M9oW_gRF5Om5NxqbzNAzA-aKNWqmHHu?usp=sharing)
   - scipyのwavfileモジュールによる読み込みと書き込み [wave_read_write_scipy.ipynb](https://colab.research.google.com/drive/17P6IDONQ7cGGZWd0Ld5qIqDs1Gwhx4VI?usp=sharing)
