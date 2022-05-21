@@ -59,5 +59,6 @@ pip3 install pyworld
 
 ### Google Colaboratory
 - Scipyによる短時間フーリエ変換の計算およびスペクトログラムのプロット [feat_stft_spec.ipynb](https://colab.research.google.com/drive/1I6SrsgqwLfZItSAapMWzb-90lNLJWBZS?usp=sharing)
+- メルスペクトログラムの抽出の可視化 [feat_melspec.ipynb](https://colab.research.google.com/drive/1B2pCOHnYpQ58-7WClpUxac6EPnRIO0Kh?usp=sharing)
 - 位相復元
   - Masuyama氏らが提案したADMMに基づく高速位相復元アルゴリズム [feat_gla_admm.ipynb](https://colab.research.google.com/drive/1zUkhSgUgxmxBzjJZBwnRcz9yXvxxNDZT?usp=sharing)
