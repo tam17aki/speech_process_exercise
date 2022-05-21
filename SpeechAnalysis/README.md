@@ -65,7 +65,7 @@ pip3 install pyworld
 - PARCOR係数の抽出 [feat_parcor.ipynb](https://colab.research.google.com/drive/1AUQ2y_I0f8hTzQY0d2ZpZkfsi-15-Cpz?usp=sharing)
 - 線スペクトル対の抽出 [feat_lsp.ipynb](https://colab.research.google.com/drive/1M4NEMCyosNnnexEZmfOqrjcykZF6SbJU?usp=sharing)
 - ケプストラムの抽出
-  - 全フレーム対象 [feat_lsp.ipynb](https://colab.research.google.com/drive/15EInBrNJ7REUJ1i5N0VUuL0RXC5nLZ-t?usp=sharing)
+  - 全フレーム対象 [feat_cepstrum.ipynb](https://colab.research.google.com/drive/15EInBrNJ7REUJ1i5N0VUuL0RXC5nLZ-t?usp=sharing)
 - MFCCの抽出 [feat_mfcc.ipynb](https://colab.research.google.com/drive/1e-ujQqrWe0xNr-Adq6EQkFyO2YtmuWYr?usp=sharing)
 - 基本周波数の抽出
   - RAPTアルゴリズム [feat_fo_rapt.ipynb](https://colab.research.google.com/drive/17RLdZ9v9sgvjFRwnI_3LvnrSxMXsBDao?usp=sharing)
