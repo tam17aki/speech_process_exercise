@@ -46,6 +46,7 @@ pip3 install sounddevice
 - 量子化ビット数を変更したwavファイルの作成 [wave_change_bitdepth.ipynb](https://colab.research.google.com/drive/1Ck2ebuTR9HNSy9E1mDpq1iPv6gFP02Yg?usp=sharing)
 - 振幅の正規化 [wave_normalize.ipynb](https://colab.research.google.com/drive/14JnCsUSzqjgzKAfQ4zGETPxVsSJm1RY2?usp=sharing)
 - ステレオからモノラルに変更 [wave_stereo_to_mono.ipynb](https://colab.research.google.com/drive/1SlzadilGSkM-p3Wqpf0cNOr9dO0Y_TBy?usp=sharing)
+- 白色雑音の作成と書き込み [wave_write_whitenoise.ipynb](https://colab.research.google.com/drive/1FUiws9cVD7lgx8mN1QKatYxPl7QcM2hX?usp=sharing)
 - wavファイルの再生 [wave_play_wav.ipynb](https://colab.research.google.com/drive/1rZQEBuVzbJ2LhTeogAhYTEq1Zb4MFg3w?usp=sharing)
 - 波形プロット [plt_waveform.ipynb](https://colab.research.google.com/drive/18hc3xLmpRu5rsJKL6Po9ffUwmTuMftl6?usp=sharing)
 - 波形プロット（librosa利用）[librosa_plot_waveform.ipynb](https://colab.research.google.com/drive/1hKSNKo01GtNWPm2m9UOevbp8ECsYntZ-?usp=sharing)
