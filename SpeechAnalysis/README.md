@@ -64,5 +64,6 @@ pip3 install pyworld
 - 基本周波数の抽出
   - YINアルゴリズム [feat_fo_yin.ipynb](https://colab.research.google.com/drive/1DuhkR82bHLJibmr5IDFP2-8qUIUDpj9P?usp=sharing)
   - probabilistic YINアルゴリズム [feat_fo_pyin.ipynb](https://colab.research.google.com/drive/10XZvN6V7BZLNwextRxBrpNmpwUnbzR9T?usp=sharing)
+  - DIOアルゴリズム [feat_fo_dio.ipynb](https://colab.research.google.com/drive/1AGfo-DcMdPGmA5903Ffhl6QzALn8AFhR?usp=sharing)
 - 位相復元
   - Masuyama氏らが提案したADMMに基づく高速位相復元アルゴリズム [feat_gla_admm.ipynb](https://colab.research.google.com/drive/1zUkhSgUgxmxBzjJZBwnRcz9yXvxxNDZT?usp=sharing)
