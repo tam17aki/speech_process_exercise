@@ -62,6 +62,7 @@ pip3 install pyworld
 - メルスペクトログラムの抽出の可視化 [feat_melspec.ipynb](https://colab.research.google.com/drive/1B2pCOHnYpQ58-7WClpUxac6EPnRIO0Kh?usp=sharing)
 - MFCCの抽出 [feat_mfcc.ipynb](https://colab.research.google.com/drive/1e-ujQqrWe0xNr-Adq6EQkFyO2YtmuWYr?usp=sharing)
 - 基本周波数の抽出
+  - SWIPE'アルゴリズム [feat_fo_swipe.ipynb](https://colab.research.google.com/drive/1j7y7abQwOuu9abhIts_jWhMyBEkUh8oa?usp=sharing)
   - YINアルゴリズム [feat_fo_yin.ipynb](https://colab.research.google.com/drive/1DuhkR82bHLJibmr5IDFP2-8qUIUDpj9P?usp=sharing)
   - probabilistic YINアルゴリズム [feat_fo_pyin.ipynb](https://colab.research.google.com/drive/10XZvN6V7BZLNwextRxBrpNmpwUnbzR9T?usp=sharing)
   - DIOアルゴリズム [feat_fo_dio.ipynb](https://colab.research.google.com/drive/1AGfo-DcMdPGmA5903Ffhl6QzALn8AFhR?usp=sharing)
