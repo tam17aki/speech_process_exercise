@@ -46,6 +46,7 @@ pip3 install sounddevice
 ### Google Colaboratory
 - wavファイルの読み込みと書き込み
   - waveモジュールによる読み込みと書き込み [wave_read_write.ipynb](https://colab.research.google.com/drive/10M9oW_gRF5Om5NxqbzNAzA-aKNWqmHHu?usp=sharing)
+  - scipyのwavfileモジュールによる読み込みと書き込み [wave_read_write_scipy.ipynb](https://colab.research.google.com/drive/17P6IDONQ7cGGZWd0Ld5qIqDs1Gwhx4VI?usp=sharing)
 - wavファイルの再生 [wave_play_wav.ipynb](https://colab.research.google.com/drive/1rZQEBuVzbJ2LhTeogAhYTEq1Zb4MFg3w?usp=sharing)
 - 波形プロット [plt_waveform.ipynb](https://colab.research.google.com/drive/18hc3xLmpRu5rsJKL6Po9ffUwmTuMftl6?usp=sharing)
 - 波形プロット（librosa利用）[librosa_plot_waveform.ipynb](https://colab.research.google.com/drive/1hKSNKo01GtNWPm2m9UOevbp8ECsYntZ-?usp=sharing)
