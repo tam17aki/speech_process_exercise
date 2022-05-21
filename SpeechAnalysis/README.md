@@ -69,6 +69,8 @@ pip3 install pyworld
   - パワー最大のフレームに対してケプストラム抽出 & スペクトル包絡抽出 [feat_cepstrum_envelop.ipynb](https://colab.research.google.com/drive/1mt0lyDlp_UEcRjCBmacMPcW5rqxH-gFG?usp=sharing)
 - メルケプストラムの抽出
   - 全フレーム対象 [feat_mcep.ipynb](https://colab.research.google.com/drive/1S97-ZIWyfCGJHryFnYMib22EPH7ImPAG?usp=sharing)
+- スペクトル包絡の抽出
+  - PySPTK利用 [feat_plot_envelops_pysptk.ipynb](https://colab.research.google.com/drive/1jcyS0NFXyeRFbgsKwsyoMiSpJyz3yM8O?usp=sharing)
 - MFCCの抽出 [feat_mfcc.ipynb](https://colab.research.google.com/drive/1e-ujQqrWe0xNr-Adq6EQkFyO2YtmuWYr?usp=sharing)
 - 基本周波数の抽出
   - RAPTアルゴリズム [feat_fo_rapt.ipynb](https://colab.research.google.com/drive/17RLdZ9v9sgvjFRwnI_3LvnrSxMXsBDao?usp=sharing)
