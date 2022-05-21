@@ -42,3 +42,6 @@ pip3 install sounddevice
 - スペクトログラムのプロット [plt_specgram.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_specgram.ipynb)
 - スペクトログラムのプロット（librosa利用） [librosa_plot_specgram.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/WarmUp/librosa_plot_specgram.ipynb)
 - 白色雑音のプロットと再生 [plt_whitenoise.ipynb](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/WarmUp/plt_whitenoise.ipynb)
+
+### Google Colaboratory
+- wavファイルの再生 [wave_play_wav.ipynb](https://colab.research.google.com/drive/1rZQEBuVzbJ2LhTeogAhYTEq1Zb4MFg3w?usp=sharing)
