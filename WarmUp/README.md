@@ -51,3 +51,4 @@ pip3 install sounddevice
 - 波形プロット [plt_waveform.ipynb](https://colab.research.google.com/drive/18hc3xLmpRu5rsJKL6Po9ffUwmTuMftl6?usp=sharing)
 - 波形プロット（librosa利用）[librosa_plot_waveform.ipynb](https://colab.research.google.com/drive/1hKSNKo01GtNWPm2m9UOevbp8ECsYntZ-?usp=sharing)
 - スペクトログラムのプロット [plt_specgram.ipynb](https://colab.research.google.com/drive/12dHvnmUw0eSlNMihT-ZfrTk6GkygTaNk?usp=sharing)
+- スペクトログラムのプロット（librosa利用） [librosa_plot_specgram.ipynb](https://colab.research.google.com/drive/1EH5sQHDGQ8euszV3xXsR6VTPvpc1fUFy?usp=sharing)
