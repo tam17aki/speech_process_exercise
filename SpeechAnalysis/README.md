@@ -63,5 +63,6 @@ pip3 install pyworld
 - MFCCの抽出 [feat_mfcc.ipynb](https://colab.research.google.com/drive/1e-ujQqrWe0xNr-Adq6EQkFyO2YtmuWYr?usp=sharing)
 - 基本周波数の抽出
   - YINアルゴリズム [feat_fo_yin.ipynb](https://colab.research.google.com/drive/1DuhkR82bHLJibmr5IDFP2-8qUIUDpj9P?usp=sharing)
+  - probabilistic YINアルゴリズム [feat_fo_pyin.ipynb](https://colab.research.google.com/drive/10XZvN6V7BZLNwextRxBrpNmpwUnbzR9T?usp=sharing)
 - 位相復元
   - Masuyama氏らが提案したADMMに基づく高速位相復元アルゴリズム [feat_gla_admm.ipynb](https://colab.research.google.com/drive/1zUkhSgUgxmxBzjJZBwnRcz9yXvxxNDZT?usp=sharing)
