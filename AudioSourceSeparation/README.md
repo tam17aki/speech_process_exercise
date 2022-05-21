@@ -15,5 +15,5 @@ pip3 install nussl
 
 
 ### Google Colaboratory
-- Nussl
+- nussl
   - AudioSignal入門 [Introduction_to_AudioSignal.ipynb](https://colab.research.google.com/drive/1ntYryCmSam1El-WWIWRzYS8a9f8Fa8d5?usp=sharing)
