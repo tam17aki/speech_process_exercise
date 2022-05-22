@@ -7,6 +7,10 @@ pip3 install pysptk
 pip3 install pyworld
 ```
 
+## 使用データ
+以下からダウンロード
+- [in.wav](https://drive.google.com/file/d/1lsN-is31x_snFBTNGR05pQwX9RhzC8sb/view?usp=sharing)
+
 ## ファイル一覧
 ### Pythonスクリプト
 - 短時間フーリエ変換（stft）
