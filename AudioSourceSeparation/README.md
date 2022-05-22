@@ -24,7 +24,7 @@ pip3 install nussl
   - 周波数マスキング入門 [masking_audio_signal_timefreq.ipynb](https://colab.research.google.com/drive/1qPyDcUAOwsfDZ_X1x_yn1Zqb2Ef52QUr?usp=sharing)
   - ローパス・ハイパスフィルタによる音源分離 [high-lowpass_filters.ipynb](https://colab.research.google.com/drive/1tTqqcBgWFK0wGQeZZjJXUGE9_4ja2GM2?usp=sharing)
   - 理想バイナリマスクによる音源分離 [ideal_binary_mask.ipynb](https://colab.research.google.com/drive/1sxQu62bunrIcjslTl01HGmwyPdjTM4i4?usp=sharing)
-  - 理想 ratio マスク（ソフトマスク）による音源分離 [ideal__mask.ipynb](https://colab.research.google.com/drive/1XYMJqc6X_9vKptt5irrGTi-deLoMGwF8?usp=sharing)
+  - 理想 ratio マスク（ソフトマスク）による音源分離 [ideal_mask.ipynb](https://colab.research.google.com/drive/1XYMJqc6X_9vKptt5irrGTi-deLoMGwF8?usp=sharing)
   - ウィーナーフィルタによる信号復元（音源分離結果の強調） [wiener_filter.ipynb](https://colab.research.google.com/drive/1f6fbPZNAG8iO2bgZFyFOlAGPiwx7CTr9?usp=sharing)
   - ロバストPCAによる音源分離（歌声と楽曲の分離）[robust_pca.ipynb](https://colab.research.google.com/drive/1S34MIYs-_OCKEt7YULR2MfJpJ_TaOUVx?usp=sharing)
   - 独立成分分析による音源分離 [ica.ipynb](https://colab.research.google.com/drive/1q3Pk5EXMS3GXO0kRkms5mxIzbfw0o3dQ?usp=sharing)
