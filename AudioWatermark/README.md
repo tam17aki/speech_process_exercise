@@ -24,3 +24,4 @@
 - ウェーブレット法 [wavelet_method.ipynb](https://colab.research.google.com/drive/1k8yiN1BzevJI7DjEl58NGDYuW3s4IFnb?usp=sharing)
 - 特異値分解法（STFTに対する）[svd_stft_method.ipynb](https://colab.research.google.com/drive/13m1Q_J5UNrTHG-DOMifHiFrYW5LP4wnZ?usp=sharing)
 - 特異値分解法（複素ケプストラムに対する）[svd_cepstrum method.ipynb](https://colab.research.google.com/drive/1hXvO6HqfLm1mKUXK5NDF54NDqEGk7lD0?usp=sharing)
+- 特異値分解法（DCT係数に対する）[svd_dct_method.ipynb](https://colab.research.google.com/drive/1Xb0s4Aa9YfCXW8J8R6wYv9n74f7GqYPK?usp=sharing)
