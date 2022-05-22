@@ -62,6 +62,11 @@ pip3 install pyworld
   - DIOアルゴリズム [feat_fo_dio.ipynb](https://nbviewer.org/github/tam17aki/speech_process_exercise/blob/master/SpeechAnalysis/feat_fo_dio.ipynb)
 
 ### Google Colaboratory
+
+音声データはマイドライブ以下、/n-hon-knock/data/ に置くことを前提(in.wav)
+
+例　"/content/drive/MyDrive/n-hon-knock/data/in.wav"
+
 - Scipyによる短時間フーリエ変換の計算およびスペクトログラムのプロット [feat_stft_spec.ipynb](https://colab.research.google.com/drive/1I6SrsgqwLfZItSAapMWzb-90lNLJWBZS?usp=sharing)
 - メルスペクトログラムの抽出の可視化 [feat_melspec.ipynb](https://colab.research.google.com/drive/1B2pCOHnYpQ58-7WClpUxac6EPnRIO0Kh?usp=sharing)
 - 線形予測係数の抽出
