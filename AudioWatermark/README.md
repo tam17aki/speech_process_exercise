@@ -17,3 +17,4 @@
 
 ### Google Colaboratory
 - 最下位ビット置換法 [lsb_method.ipynb](https://colab.research.google.com/drive/1bz8GQZ-IOQ2S7hJELy2xfujzJiddgqeE?usp=sharing)
+- 拡散スペクトル法 [spread_spectrum_method.ipynb](https://colab.research.google.com/drive/1yMvfnFOjs2BRsQGhvnypSPyGm4E7DNNq?usp=sharing)
