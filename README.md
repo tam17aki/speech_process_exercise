@@ -12,5 +12,4 @@
 ## 第9章 話者認識
 ## [第10章 音源分離](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioSourceSeparation)
 ## [第11章 音の電子透かし](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioWatermark)
-## 第12章 音声翻訳
-## 第13章 音声対話
+## 第12章 音声対話
