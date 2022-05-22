@@ -28,3 +28,4 @@ pip3 install nussl
   - 2次元フーリエ変換による音源分離（歌声と楽曲の分離）[2-d_fourier.ipynb](https://colab.research.google.com/drive/1G6c8SLP6bpnu_3f_AaAk2nK4FgzoSbC8?usp=sharing)
   - REPET法による音源分離（歌声と楽曲の分離）[REPET.ipynb](https://colab.research.google.com/drive/1H4IcYHJSD2F9XBjrCNoGtrMjmrg7Up9W?usp=sharing)
   - REPET-SIM法による音源分離（歌声と楽曲の分離）[REPETSIM.ipynb](https://colab.research.google.com/drive/12X9Pvv94vcDIQlv1pUYNqt_HsJCVhiWw?usp=sharing)
+  - Timber clusteringによる音源分離 [timber_clustering.ipynb](https://colab.research.google.com/drive/1f8sFW6TJaCvyi7YL9tvg-TgTUnBi2Bu_?usp=sharing)
