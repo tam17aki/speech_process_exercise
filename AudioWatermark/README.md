@@ -21,4 +21,4 @@
 - ケプストラム法 [cepstrum_method.ipynb](https://colab.research.google.com/drive/1IGQXgBiskWaJjhlam8i7m5-ghthsane0?usp=sharing)
 - 位相コーディング法 [phase_coding_method.ipynb](https://colab.research.google.com/drive/1djdRBmzbbFYJIqgC_EbSiKFHfPk2YGa7?usp=sharing)
 - エコーハイディング法 [echo_hiding_method.ipynb](https://colab.research.google.com/drive/1NFVCjcVUCG8NNlkzQ6hUelzUtcK9429H?usp=sharing)
-- ウェーブレット法 [wavelet_method.ipynb] (https://colab.research.google.com/drive/1k8yiN1BzevJI7DjEl58NGDYuW3s4IFnb?usp=sharing)
+- ウェーブレット法 [wavelet_method.ipynb](https://colab.research.google.com/drive/1k8yiN1BzevJI7DjEl58NGDYuW3s4IFnb?usp=sharing)
