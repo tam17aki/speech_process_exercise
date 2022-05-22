@@ -22,4 +22,4 @@ pip3 install nussl
   - ローパス・ハイパスフィルタによる音源分離 [high-lowpass_filters.ipynb](https://colab.research.google.com/drive/1tTqqcBgWFK0wGQeZZjJXUGE9_4ja2GM2?usp=sharing)
   - 理想バイナリマスクによる音源分離 [ideal_binary_mask.ipynb](https://colab.research.google.com/drive/1sxQu62bunrIcjslTl01HGmwyPdjTM4i4?usp=sharing)
   - 理想 ratio マスク（ソフトマスク）による音源分離 [ideal__mask.ipynb](https://colab.research.google.com/drive/1XYMJqc6X_9vKptt5irrGTi-deLoMGwF8?usp=sharing)
-  - ウィーナーフィルタによる音源分離（音源強調）[wiener_filter.ipynb](https://colab.research.google.com/drive/1f6fbPZNAG8iO2bgZFyFOlAGPiwx7CTr9?usp=sharing)
+  - ウィーナーフィルタによる信号復元（音源分離結果の強調） [wiener_filter.ipynb](https://colab.research.google.com/drive/1f6fbPZNAG8iO2bgZFyFOlAGPiwx7CTr9?usp=sharing)
