@@ -21,3 +21,4 @@ pip3 install nussl
   - 周波数マスキング入門 [masking_audio_signal_timefreq.ipynb](https://colab.research.google.com/drive/1qPyDcUAOwsfDZ_X1x_yn1Zqb2Ef52QUr?usp=sharing)
   - ローパス・ハイパスフィルタによる音源分離 [high-lowpass_filters.ipynb](https://colab.research.google.com/drive/1tTqqcBgWFK0wGQeZZjJXUGE9_4ja2GM2?usp=sharing)
   - 理想バイナリマスクによる音源分離 [ideal_binary_mask.ipynb](https://colab.research.google.com/drive/1sxQu62bunrIcjslTl01HGmwyPdjTM4i4?usp=sharing)
+  - 理想 ratio マスク（ソフトマスク）による音源分離 [ideal_binary_mask.ipynb](https://colab.research.google.com/drive/1XYMJqc6X_9vKptt5irrGTi-deLoMGwF8?usp=sharing)
