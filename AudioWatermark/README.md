@@ -20,3 +20,4 @@
 - 拡散スペクトル法 [spread_spectrum_method.ipynb](https://colab.research.google.com/drive/1yMvfnFOjs2BRsQGhvnypSPyGm4E7DNNq?usp=sharing)
 - ケプストラム法 [cepstrum_method.ipynb](https://colab.research.google.com/drive/1IGQXgBiskWaJjhlam8i7m5-ghthsane0?usp=sharing)
 - 位相コーディング法 [phase_coding_method.ipynb](https://colab.research.google.com/drive/1djdRBmzbbFYJIqgC_EbSiKFHfPk2YGa7?usp=sharing)
+- エコーハイディング法 [echo_hiding_method.ipynb](https://colab.research.google.com/drive/1NFVCjcVUCG8NNlkzQ6hUelzUtcK9429H?usp=sharing)
