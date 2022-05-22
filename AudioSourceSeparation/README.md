@@ -5,6 +5,9 @@ pip3 install pyroomacoustics
 pip3 install nussl
 ```
 
+- pyroomacoustics https://github.com/LCAV/pyroomacoustics
+- nussl https://github.com/nussl/nussl
+
 ### Pythonスクリプト
 - pyroomacoustics
   - ILRMAベースの音源分離 [pra_ILRMA.py](https://nbviewer.jupyter.org/github/tam17aki/speech_process_exercise/blob/master/AudioSourceSeparation/pra_ILRMA.py)
