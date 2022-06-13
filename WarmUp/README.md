@@ -53,6 +53,7 @@ pip3 install sounddevice
 - wavファイルの読み込みと書き込み
   - waveモジュールによる読み込みと書き込み [wave_read_write.ipynb](https://colab.research.google.com/drive/10M9oW_gRF5Om5NxqbzNAzA-aKNWqmHHu?usp=sharing)
   - scipyのwavfileモジュールによる読み込みと書き込み [wave_read_write_scipy.ipynb](https://colab.research.google.com/drive/17P6IDONQ7cGGZWd0Ld5qIqDs1Gwhx4VI?usp=sharing)
+  - soundfileによる読み込みと書き込み [wave_read_write_soundfile.ipynb](https://colab.research.google.com/drive/1APXBY2veqPbVn3gH-hvenGpSCIxejhsl?usp=sharing)
 - サンプリング周波数を変更したwavファイルの作成 [wave_change_framerate.ipynb](https://colab.research.google.com/drive/1ilsV-hoSZNTZRktswUzLR92VOMh3XkDa?usp=sharing)
 - 量子化ビット数を変更したwavファイルの作成 [wave_change_bitdepth.ipynb](https://colab.research.google.com/drive/1Ck2ebuTR9HNSy9E1mDpq1iPv6gFP02Yg?usp=sharing)
 - 振幅の正規化 [wave_normalize.ipynb](https://colab.research.google.com/drive/14JnCsUSzqjgzKAfQ4zGETPxVsSJm1RY2?usp=sharing)
