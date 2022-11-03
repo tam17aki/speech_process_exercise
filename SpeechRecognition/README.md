@@ -16,7 +16,7 @@ pip3 install vosk
 - マイク音声入力によるVADつきストリーミング音声認識 with VOSK ([asr_vosk_streaming.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/asr_vosk_streaming_vad.py))
 
 ### PySimpleGUIによるGUIアプリ
-- 指定秒数だけ音声を録音し、音声認識をかける ([recog_speech_rec.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/recog_speech_rec.py))
+- 指定秒数だけ音声を録音し、音声認識をかける with SpeechRecognition ([recog_speech_rec.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/recog_speech_rec.py))
 - Google Homeもどき ([google_mode_modoki.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/google_mode_modoki.py))
 - 音声認識結果を使ったWikipedia検索＆読み上げ ([recog_wikipedia.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/recog_wikipedia.py))
 
