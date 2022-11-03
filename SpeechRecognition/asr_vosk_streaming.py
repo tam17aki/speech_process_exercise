@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """マイク音声入力によるストリーミング音声認識 via VOSK.
 
+音声情報処理 n本ノック !!
+
 Copyright (C) 2022 by Akira TAMAMORI
 Copyright (C) 2022 by Koji INOUE
 
