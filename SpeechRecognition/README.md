@@ -8,6 +8,7 @@ pip3 install soundfile
 pip3 install SpeechRecognition
 pip3 install gtts
 pip3 install wikipedia
+pip3 install vosk
 ```
 
 ## PySimpleGUIによるGUIアプリ
