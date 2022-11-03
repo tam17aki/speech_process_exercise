@@ -15,12 +15,12 @@ pip3 install vosk
 - マイク音声入力によるストリーミング音声認識 with VOSK ([asr_vosk_streaming.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/asr_vosk_streaming.py))
 - マイク音声入力によるVADつきストリーミング音声認識 with VOSK ([asr_vosk_streaming.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/asr_vosk_streaming_vad.py))
 
-## PySimpleGUIによるGUIアプリ
+### PySimpleGUIによるGUIアプリ
 - 指定秒数だけ音声を録音し、音声認識をかける ([recog_speech_rec.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/recog_speech_rec.py))
 - Google Homeもどき ([google_mode_modoki.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/google_mode_modoki.py))
 - 音声認識結果を使ったWikipedia検索＆読み上げ ([recog_wikipedia.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/recog_wikipedia.py))
 
-## Google Colaboratory
+### Google Colaboratory
 - Juliusの日本語ディクテーションキット ([Link](https://colab.research.google.com/drive/1pdp9lmzzslLzN95iu69siTkTxMk-hzXf?usp=sharing))
 - SpeechRecognition ライブラリのデモンストレーション ([Link](https://colab.research.google.com/drive/1w96tb5SxCPWqnNXaVlFQpaMPzJ24w0F3?usp=sharing)) 
 - ESPnet2　事前学習済モデルを用いた音声認識デモンストレーション
