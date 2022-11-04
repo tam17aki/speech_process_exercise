@@ -39,7 +39,7 @@ class TextToSpeech:
     def __init__(self, run_marine=False):
         """Initialize the class.
 
-        run_marine (bool): enable marine to improve accent estimation.
+        run_marine (bool): enabel MARINE model to improve Japanese accent estimation.
         """
         self.audio = None
         self.sr = None
@@ -66,8 +66,8 @@ def main(text: str = "こんにちは", run_marine=False):
 
 
 if __name__ == "__main__":
-    print("Marineによるアクセント推定 ON")
+    print("MARINEによるアクセント推定 ON")
     main("いつでも話しかけてくださいね。", True)
 
-    print("Marineによるアクセント推定 OFF")
+    print("MARINEによるアクセント推定 OFF")
     main("いつでも話しかけてくださいね。", False)
