@@ -26,7 +26,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Commentary:
-# gTTSによるテキスト音声合成のサンプルスクリプト
+# gTTSによるテキスト音声合成のサンプルスクリプト with PySimpleGUI
 
 import subprocess
 
