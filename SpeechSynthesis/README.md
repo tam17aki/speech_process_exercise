@@ -9,11 +9,13 @@ pip3 install pyopenjtalk
 pip3 install gtts
 pip3 install ttslearn
 pip3 install torch
+pip3 install pyttsx3
 ```
 
 ## ファイル一覧
 ### Pythonスクリプト
 - gTTSによるテキスト読み上げ ([synth_gtts.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_gtts.py))
+- pyttsx3によるテキスト読み上げ ([synth_pyttsx.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_pyttsx.py))
 
 ### PySimpleGUIによるGUIアプリ
 - gTTSによるテキスト読み上げ ([synth_gtts_gui.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_gtts_gui.py))
