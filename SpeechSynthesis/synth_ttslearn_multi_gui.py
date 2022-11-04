@@ -26,7 +26,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Commentary:
-# ttslearnによる複数話者のテキスト音声合成
+# ttslearnによる複数話者のテキスト音声合成 with PySimpleGUI
 
 import numpy as np
 import PySimpleGUI as sg  # GUI構築のライブラリ
