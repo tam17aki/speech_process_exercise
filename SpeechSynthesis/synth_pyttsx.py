@@ -38,7 +38,7 @@ class TextToSpeech:
         """Initialize the class."""
         self.engine = pyttsx3.init()
 
-    def say(self, text):
+    def generate(self, text):
         """Queues a command to speak an utterance."""
         self.engine.say(text)
 
@@ -50,7 +50,7 @@ class TextToSpeech:
 def main(text: str = "こんにちは"):
     """main module."""
     tts = TextToSpeech()
-    tts.say(text)
+    tts.generate(text)
     tts.play()
 
 
