@@ -15,7 +15,7 @@ pip3 install pyttsx3
 ## ファイル一覧
 ### Pythonスクリプト
 - gTTSによるテキスト読み上げ ([synth_gtts.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_gtts.py))
-- pyopenjtalkによるテキスト読み上げ ([synth_gtts.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_pyopenjtalk.py))
+- pyopenjtalkによるテキスト読み上げ ([synth_pyopenjtalk.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_pyopenjtalk.py))
 - pyttsx3によるテキスト読み上げ ([synth_pyttsx.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_pyttsx.py))
 
 ### PySimpleGUIによるGUIアプリ
