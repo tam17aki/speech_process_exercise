@@ -5,7 +5,7 @@
 pip3 install pysimplegui
 pip3 install sounddevice
 pip3 install soundfile
-pip3 install pyopenjtalk
+pip3 install pyopenjtalk[marine]
 pip3 install gtts
 pip3 install ttslearn
 pip3 install torch
