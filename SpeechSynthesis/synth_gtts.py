@@ -33,7 +33,9 @@ from pydub import AudioSegment
 from pydub.playback import play
 
 
-class TextToSpeech(object):
+class TextToSpeech:
+    """Class for Text-to-Speech."""
+
     def __init__(self, lang: str = "ja", out_file: str = "/tmp/tts.mp3"):
         """Initialize the class."""
         self.lang = lang
@@ -44,7 +46,7 @@ class TextToSpeech(object):
         tts = gTTS(text, lang=self.lang)
         tts.save(self.out_file)  # save audio in mp3 format
 
-    def play_speech(self):
+    def play(self):
         """Play synthesized speech."""
         audio_data = AudioSegment.from_mp3(self.out_file)
         play(audio_data)
@@ -54,7 +56,7 @@ def main(text: str = "こんにちは"):
     """main module."""
     tts = TextToSpeech()
     tts.generate(text)
-    tts.play_speech()
+    tts.play()
 
 
 if __name__ == "__main__":
