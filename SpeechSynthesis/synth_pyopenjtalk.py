@@ -66,4 +66,8 @@ def main(text: str = "こんにちは", run_marine=False):
 
 
 if __name__ == "__main__":
+    print("Marineによるアクセント推定 ON")
     main("いつでも話しかけてくださいね。", True)
+
+    print("Marineによるアクセント推定 OFF")
+    main("いつでも話しかけてくださいね。", False)
