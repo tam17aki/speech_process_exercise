@@ -36,14 +36,18 @@ import sounddevice as sd
 class TextToSpeech:
     """Class for Text-to-Speech."""
 
-    def __init__(self):
-        """Initialize the class."""
+    def __init__(self, run_marine=False):
+        """Initialize the class.
+
+        run_marine (bool): enable marine to improve accent estimation.
+        """
         self.audio = None
         self.sr = None
+        self.run_marine = run_marine
 
     def generate(self, text):
         """Perform text-to-speech."""
-        self.audio, self.sr = pyopenjtalk.tts(text)
+        self.audio, self.sr = pyopenjtalk.tts(text, run_marine=self.run_marine)
 
     def play(self):
         """Play synthesized speech."""
@@ -62,4 +66,4 @@ def main(text: str = "こんにちは"):
 
 
 if __name__ == "__main__":
-    main("こんにちは")
+    main("いつでも話しかけてくださいね。")
