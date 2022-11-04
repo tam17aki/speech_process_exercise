@@ -31,7 +31,9 @@
 import pyttsx3
 
 
-class TextToSpeech(object):
+class TextToSpeech:
+    """Class for Text-to-Speech."""
+
     def __init__(self):
         """Initialize the class."""
         self.engine = pyttsx3.init()
