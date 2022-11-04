@@ -12,6 +12,6 @@ pip3 install torch
 ```
 
 ## PySimpleGUIによるGUIアプリ
-- gTTSによるテキスト読み上げ ([synth_gtts.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_gtts.py))
-- PyOpenJTalkによるテキスト読み上げ ([synth_pyopenjtalk.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_pyopenjtalk.py))
-- ttslearnによる複数話者テキスト読み上げ ([synth_ttslearn_multi.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_ttslearn_multi.py))
+- gTTSによるテキスト読み上げ ([synth_gtts_gui.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_gtts_gui.py))
+- PyOpenJTalkによるテキスト読み上げ ([synth_pyopenjtalk_gui.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_pyopenjtalk_gui.py))
+- ttslearnによる複数話者テキスト読み上げ ([synth_ttslearn_multi_gui.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechSynthesis/synth_ttslearn_multi_gui.py))
