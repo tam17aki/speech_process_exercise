@@ -58,12 +58,12 @@ class TextToSpeech:
         sd.sleep(int(1000 * len(audio) / self.sr))
 
 
-def main(text: str = "こんにちは"):
+def main(text: str = "こんにちは", run_marine=False):
     """main module."""
-    tts = TextToSpeech()
+    tts = TextToSpeech(run_marine)
     tts.generate(text)
     tts.play()
 
 
 if __name__ == "__main__":
-    main("いつでも話しかけてくださいね。")
+    main("いつでも話しかけてくださいね。", True)
