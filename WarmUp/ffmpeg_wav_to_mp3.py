@@ -26,7 +26,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Commentary:
-# python-ffmpegによりwavをmp3へエクスポート
+# ffmpeg-pythonによりwavをmp3へエクスポート
 
 import wave
 
