@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-""" 音声情報処理 n本ノック !! """
+"""音声情報処理 n本ノック."""
 
 # MIT License
 
@@ -53,7 +53,7 @@ class TextToSpeech:
 
 
 def main(text: str = "こんにちは"):
-    """main module."""
+    """Perform Text-to-Speech."""
     tts = TextToSpeech()
     tts.generate(text)
     tts.play()
