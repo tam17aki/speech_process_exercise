@@ -22,6 +22,7 @@ pip3 install ffmpeg-python
   - scipyのwavfileモジュールによる読み込みと書き込み [wave_read_write_scipy.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_read_write_scipy.py)
 - wavファイルとmp3ファイルの相互変換
   - pydubモジュールによるwavからmp3へのエクスポート [pydub_wav_to_mp3.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/pydub_wav_to_mp3.py)
+  - pydubモジュールによるmp3からwavへのエクスポート [pydub_mp3_to_wav.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/pydub_mp3_to_wav.py)
   - ffmpeg-pythonモジュールによるwavからmp3へのエクスポート [ffmpeg_wav_to_mp3.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/ffmpeg_wav_to_mp3.py)
   - ffmpeg-pythonモジュールによるmp3からwavへのエクスポート [ffmpeg_mp3_to_wav.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/ffmpeg_mp3_to_wav.py)
 - サンプリング周波数を変更したwavファイルの作成 [wave_change_framerate.py](https://github.com/tam17aki/speech_process_exercise/blob/master/WarmUp/wave_change_framerate.py)
