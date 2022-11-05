@@ -13,9 +13,9 @@ pip3 install vosk
 
 ## ファイル一覧
 - 指定秒数だけ音声（wav）を録音 with soundfile & sounddevice ([record_speech.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/record_speech.py))
-- 収録済み音声（wav）に対する音声認識 with VOSK ([asr_vosk_recorded.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/asr_vosk_recorded.py))
-- マイク音声入力によるストリーミング音声認識 with VOSK ([asr_vosk_streaming.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/asr_vosk_streaming.py))
-- マイク音声入力によるVADつきストリーミング音声認識 with VOSK ([asr_vosk_streaming.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/asr_vosk_streaming_vad.py))
+- 収録済み音声（wav）に対する音声認識 with VOSK ([vosk_asr_recorded.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/vosk_asr_recorded.py))
+- マイク音声入力によるストリーミング音声認識 with VOSK ([vosk_asr_streaming.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/vosk_asr_streaming.py))
+- マイク音声入力によるVADつきストリーミング音声認識 with VOSK ([vosk_asr_streaming_vad.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/vosk_asr_streaming_vad.py))
 
 ### PySimpleGUIによるGUIアプリ
 - 指定秒数だけ音声を録音し、音声認識をかける with SpeechRecognition ([recog_speech_rec.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechRecognition/recog_speech_rec.py))
