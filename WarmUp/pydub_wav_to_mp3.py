@@ -4,7 +4,7 @@
 
 # MIT License
 
-# Copyright (C) 2020 by Akira TAMAMORI
+# Copyright (C) 2022 by Akira TAMAMORI
 
 # Permission is hereby granted, free of charge, to any person
 # obtaining a copy of this software and associated documentation files
@@ -30,7 +30,7 @@
 
 import pydub
 
-IN_WAVE_FILE = "in.wav"  # モノラル音声（前提）
+IN_WAVE_FILE = "in.wav"
 OUT_MP3_FILE = "out.mp3"
 
 audio = pydub.AudioSegment.from_wav(IN_WAVE_FILE)
