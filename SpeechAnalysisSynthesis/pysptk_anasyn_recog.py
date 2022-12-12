@@ -251,8 +251,7 @@ def load_wav(file_name):
     audio, _ = sf.read(file_name)
 
     # 振幅の正規化
-    audio = normalize(VARS["audio"])
-
+    audio = normalize(audio)
     VARS["audio"] = audio
 
     # 保存しておく
