@@ -33,3 +33,6 @@ pip3 install pyworld
 - メルケプストラム分析による再合成 (パラメタを変えていろいろな声を合成)
 [pysptk_anasyn_mlsa_others.ipynb](https://colab.research.google.com/drive/13QK6S_vQdwgU7bX8pXdJErFjnNHnqeQy?usp=sharing)
 - WORLDによる再合成 [pyworld_anasyn.ipynb](https://colab.research.google.com/drive/1yeIWMuQNqX2RNti0hRmHxSoAjrlrIjRU?usp=sharing)
+
+### PySimpleGUIによるGUIアプリ
+- 音声録音および分析合成（波形表示・スペクトログラム表示も可能）[pysptk_anasyn_recog.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeechAnalysisSynthesis/pysptk_anasyn_recog.py)
