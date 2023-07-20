@@ -26,4 +26,4 @@ python3 -m pip install xvector-jtubespeech
   - 声優統計コーパスから抽出済のxvectorを用いる
     - サポートベクトルマシン
     - フィードフォワードニューラルネット (PyTorch) [spk_recog_mlp.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/spk_recog_mlp.py)
-    - フィードフォワードニューラルネット (scikit-learn)
+    - フィードフォワードニューラルネット (scikit-learn) [spk_recog_mlp_sklearn.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/spk_recog_mlp_sklearn.py)
