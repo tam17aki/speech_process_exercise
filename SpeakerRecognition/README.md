@@ -18,10 +18,10 @@ python3 -m pip install xvector-jtubespeech
 - xvectorの抽出 via xvector-jtubespeech
   - 抽出のお試し
   - 声優統計コーパス
-    - コーパスのダウンロード
-    - 事前学習済モデルのダウンロード
-    - xvectorを抽出して保存
+    - コーパスのダウンロード [download_voicestats_corpus.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/download_voicestats_corpus.py)
+    - 事前学習済モデルのダウンロード [download_pretrained_model.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/download_pretrained_model.py)
+    - xvectorを抽出して保存 [extract_xvector_voicestats.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/extract_xvector_voicestats.py)
    
 - 話者認識モデルを動かす
   - サポートベクトルマシン
-  - ニューラルネット
+  - ニューラルネット [spk_recog_mlp.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/spk_recog_mlp.py)
