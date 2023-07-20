@@ -1,0 +1,26 @@
+# 話者認識
+
+## はじめに
+```
+python3 -m pip install librosa
+python3 -m pip install hydra-core
+python3 -m pip install progressbar2
+python3 -m pip install torch
+python3 -m pip install torchaudio
+python3 -m pip install xvector-jtubespeech
+```
+## 使用データ
+- [in.wav](https://drive.google.com/file/d/1lsN-is31x_snFBTNGR05pQwX9RhzC8sb/view?usp=sharing)
+- [声優統計コーパス](https://voice-statistics.github.io/)
+
+## ファイル一覧
+- xvectorの抽出 via xvector-jtubespeech
+  - 抽出のお試し
+  - 声優統計コーパス
+    - コーパスのダウンロード
+    - 事前学習済モデルのダウンロード
+    - xvectorを抽出して保存
+   
+- 話者認識モデルを動かす
+  - サポートベクトルマシン
+  - ニューラルネット
