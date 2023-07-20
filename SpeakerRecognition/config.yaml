@@ -26,3 +26,31 @@ feature:
 pretrained:
   repo_name: "xvector_jtubespeech-master"
   file_name: "xvector.pth"
+
+model:
+  x_dim: 512
+  h_dim: 512
+  n_layers: 3
+
+training:
+  seed: 0
+  n_splits: 5 # クロスバリデーションの分割数
+  n_epoch: 10
+  n_batch: 16
+  num_workers: 1
+  model_file: "model.pytorch"
+  optim:
+    optimizer:  # 最適化アルゴリズム
+      name: Adam
+      params:  # 最適化アルゴリズムに応じて項目を追加したり減らしたりする
+        lr: 1e-4  # 学習率
+        betas: [0.9, 0.98]
+        eps: 1e-08
+        weight_decay: 0
+    lr_scheduler:  # 学習率調整アルゴリズム
+      name: MultiStepLR
+      params:  # 学習率調整アルゴリズムに応じて項目を追加したり減らしたりする
+        milestones:
+          - 50
+        gamma: 0.6
+  use_scheduler: False  # 学習率スケジューリングを使うか否か
