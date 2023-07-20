@@ -25,4 +25,4 @@ python3 -m pip install xvector-jtubespeech
 - 話者認識モデルを動かす
   - 声優統計コーパス   
     - サポートベクトルマシン
-    - ニューラルネット [spk_recog_mlp.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/spk_recog_mlp.py)
+    - フィードフォワードニューラルネット (PyTorch) [spk_recog_mlp.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/spk_recog_mlp.py)
