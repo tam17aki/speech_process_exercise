@@ -23,6 +23,6 @@ python3 -m pip install xvector-jtubespeech
     - xvectorを抽出して保存 [extract_xvector_voicestats.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/extract_xvector_voicestats.py)
    
 - 話者認識モデルを動かす
-  - 声優統計コーパス   
+  - 声優統計コーパスから抽出済のxvectorを用いる
     - サポートベクトルマシン
     - フィードフォワードニューラルネット (PyTorch) [spk_recog_mlp.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/spk_recog_mlp.py)
