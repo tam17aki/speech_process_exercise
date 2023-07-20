@@ -31,6 +31,7 @@ model:
   x_dim: 512
   h_dim: 512
   n_layers: 3
+  activation: "relu" # for scikit-learn
   layer_sizes: [512, 512, 512] # for scikit-learn
 
 training:
