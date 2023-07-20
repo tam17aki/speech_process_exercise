@@ -1,0 +1,28 @@
+xvector:
+  root_dir: "/content/"
+  data_dir: "voice-statistics/data/"
+  feat_dir: "feats/"
+  model_dir: "model/"
+  corpus_url: "https://github.com/voice-statistics/voice-statistics.github.com/raw/master/assets/data/"
+  repo_url: "https://github.com/sarulab-speech/xvector_jtubespeech/archive/refs/heads/master.zip"
+  repo_name: "xvector_jtubespeech-master"
+  n_jobs:
+
+actor:
+  - "tsuchiya"
+  - "fujitou"
+  - "uemura"
+
+emotion:
+  - "angry"
+  - "happy"
+  - "normal"
+
+feature:
+  sample_rate: 16000
+  num_ceps: 24
+  num_melbins: 24
+
+pretrained:
+  repo_name: "xvector_jtubespeech-master"
+  file_name: "xvector.pth"
