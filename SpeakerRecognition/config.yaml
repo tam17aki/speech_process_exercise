@@ -1,5 +1,5 @@
 xvector:
-  root_dir: "/content/"
+  root_dir: "/home/tamamori/work/n-hon-knock/SpeakerRecognition/"
   data_dir: "voice-statistics/data/"
   feat_dir: "feats/"
   model_dir: "model/"
