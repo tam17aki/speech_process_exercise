@@ -10,7 +10,7 @@
 ## [第7章 音声認識](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeechRecognition)
 ## 第8章 音声対話システム
 ## [第9章 音声変換](https://github.com/tam17aki/speech_process_exercise/tree/master/VoiceConversion)
-## 第10章 話者認識
+## [第10章 話者認識](https://github.com/tam17aki/speech_process_exercise/tree/master/SpeakerRecognition)
 ## [第11章 音源分離](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioSourceSeparation)
 ## [第12章 音の電子透かし](https://github.com/tam17aki/speech_process_exercise/tree/master/AudioWatermark)
 
