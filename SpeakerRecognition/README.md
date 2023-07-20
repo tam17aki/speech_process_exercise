@@ -11,6 +11,7 @@ python3 -m pip install xvector-jtubespeech
 ```
 ## 使用データ
 - [in.wav](https://drive.google.com/file/d/1lsN-is31x_snFBTNGR05pQwX9RhzC8sb/view?usp=sharing)
+- [config.yaml](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/config.yaml)
 - [声優統計コーパス](https://voice-statistics.github.io/)
 
 ## ファイル一覧
