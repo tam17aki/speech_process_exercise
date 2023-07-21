@@ -155,5 +155,5 @@ def main(cfg):
 
 if __name__ == "__main__":
     with initialize(version_base=None, config_path="."):
-        config = compose(config_name="config")
+        config = compose(config_name="config_sklearn")
     main(config)
