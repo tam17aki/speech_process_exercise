@@ -53,11 +53,11 @@ def load_feats(cfg: DictConfig):
                 xvector = np.load(feat_file)
                 xvector = np.expand_dims(xvector, axis=0)
                 feats[actor].append(xvector)
-                if emotion == "angry":
+                if actor == "tsuchiya":
                     labels[actor].append(0)
-                elif emotion == "happy":
+                elif actor == "fujitou":
                     labels[actor].append(1)
-                else:  # normal
+                elif actor == "uemura":
                     labels[actor].append(2)
         feats[actor] = np.concatenate(feats[actor])
     feats = np.concatenate(list(feats.values()))
