@@ -15,7 +15,7 @@ python3 -m pip install xvector-jtubespeech
 
 ## ファイル一覧
 - xvectorの抽出 via xvector-jtubespeech
-  - 抽出のお試し
+  - 抽出のお試し [extract_sample.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/extract_sample.py)
   - 声優統計コーパス
     - コーパスのダウンロード [download_voicestats_corpus.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/download_voicestats_corpus.py)
     - 事前学習済モデルのダウンロード [download_pretrained_model.py](https://github.com/tam17aki/speech_process_exercise/blob/master/SpeakerRecognition/download_pretrained_model.py)
