@@ -1,0 +1,43 @@
+xvector:
+  root_dir: "/home/tamamori/work/n-hon-knock/SpeakerRecognition/"
+  data_dir: "voice-statistics/data/"
+  feat_dir: "feats/"
+  model_dir: "model/"
+  corpus_url: "https://github.com/voice-statistics/voice-statistics.github.com/raw/master/assets/data/"
+  repo_url: "https://github.com/sarulab-speech/xvector_jtubespeech/archive/refs/heads/master.zip"
+  repo_name: "xvector_jtubespeech-master"
+  n_jobs:
+
+actor:
+  - "tsuchiya"
+  - "fujitou"
+  - "uemura"
+
+emotion:
+  - "angry"
+  - "happy"
+  - "normal"
+
+feature:
+  sample_rate: 16000
+  num_ceps: 24
+  num_melbins: 24
+
+pretrained:
+  repo_name: "xvector_jtubespeech-master"
+  file_name: "xvector.pth"
+
+model:
+  x_dim: 512
+  h_dim: 512
+  n_layers: 3
+  activation: "relu" # for scikit-learn
+  layer_sizes: [512, 512, 512] # for scikit-learn
+
+
+training:
+  seed: 0
+  n_splits: 5 # クロスバリデーションの分割数
+  n_epoch: 50
+  n_batch: 16
+  learning_rate: 0.0001 # for scikit-learn
