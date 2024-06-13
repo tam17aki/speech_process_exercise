@@ -48,6 +48,8 @@ def main():
 
     # initialization
     octave.addpath(octave.genpath(args.ltfat_dir))
+    octave.ltfatstart(0)
+    octave.phaseretstart(0)
 
     # compute magnitude spectrum
     audio, rate = sf.read(Path(args.in_wavdir, args.in_wav))
