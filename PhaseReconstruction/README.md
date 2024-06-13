@@ -36,4 +36,9 @@ OctPy経由でMATLAB/GNU Octave用ライブラリLTFATとPHASERETを利用し，
    octave> phaseretmex;
    ```
 
+## ファイル一覧
 ### Pythonスクリプト
+- Single Pass Spectrogram Inversion (SPSI) による位相復元 [phaseret_spsi.py](https://github.com/tam17aki/speech_process_exercise/blob/master/PhaseReconstruction/phaseret_spsi.py)
+- Phase Gradient Heap Integration (PGHI) による位相復元 [phaseret_pghi.py](https://github.com/tam17aki/speech_process_exercise/blob/master/PhaseReconstruction/phaseret_pghi.py)
+- Real-Time Phase Gradient Heap Integration (RTPGHI) による位相復元 [phaseret_rtpghi.py](https://github.com/tam17aki/speech_process_exercise/blob/master/PhaseReconstruction/phaseret_rtpghi.py)
+- Real-Time Iterative Spectrogram Inversion with Look Ahead (RTISILA) による位相復元 [phaseret_rtisila.py](https://github.com/tam17aki/speech_process_exercise/blob/master/PhaseReconstruction/phaseret_rtisila.py)
