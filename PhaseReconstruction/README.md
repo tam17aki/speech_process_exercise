@@ -9,7 +9,7 @@ pip3 install oct2py
 pip3 install scipy
 ```
 
-OctPy経由でMATLAB/GNU Octave用ライブラリLTFATとPHASERETを利用し，音声の位相復元を実装する．
+Oct2Py経由でMATLAB/GNU Octave用ライブラリLTFATとPHASERETを利用し，音声の位相復元を実装する．
 
 事前にOctaveのインストールを済ませておく．
 
