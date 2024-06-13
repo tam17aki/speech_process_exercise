@@ -47,8 +47,6 @@ def main():
 
     # initialization
     octave.addpath(octave.genpath(args.ltfat_dir))
-    octave.ltfatstart(0)  # 引数の0を省略するとoct2pyのエラーでこける
-    octave.phaseretstart(0)  # 引数の0を省略するとoct2pyのエラーでこける
 
     # compute magnitude spectrum
     audio, rate = sf.read(Path(args.in_wavdir, args.in_wav))
